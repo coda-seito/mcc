@@ -69,8 +69,8 @@ class About extends Component{
 										<div className="icon-bx icon-bx-xl">
 											<img src={require('./../../images/cake1.jpg')} alt="" />
 										</div>
-										<h3>About Our Restaurant King</h3>
-										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+										<h3>About Mass Cake Cafe</h3>
+										<p>Mass Cake Cafe prides itself for the quality of our products and the personalized customer service we provide. We use only the finest ingredients and make everything from scratch in small batches, ensuring that each item is fresh and delicious. Our bakery is the perfect place to enjoy high-quality baked goods and experience exceptional customer service.</p>
 									</div>
 								</div>
 							</div>

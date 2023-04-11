@@ -14,8 +14,8 @@ class Slider extends Component{
 							{/* <img className="d-block w-100 slider" src={require('./../../images/main-slider/slide1.jpg')}	alt="Second slide"	/> */}
 							<div className="content">
 								<span>Cakes & Bakery</span>
-								<h2 className="title">Welcome To Bakery</h2>
-								<h4 className="sub-title">The Best Cakes In New York</h4>
+								<h2 className="title">Buy 1kg Get 1/2kg Free</h2>
+								<h4 className="sub-title">The Best Cakes In Navalur</h4>
 								<Link to={"/about-1"} className="btn btnhover">About Us</Link>
 								<Link to={''} className="btn white" data-toggle="modal" data-target="#exampleModal">Subscribe Now</Link>
 							</div>	
@@ -27,7 +27,7 @@ class Slider extends Component{
 							<div className="content">
 								<span>Cakes & Bakery</span>
 								<h2 className="title">Occasion Cakes</h2>
-								<h4 className="sub-title">The Best Coffee In China</h4>
+								<h4 className="sub-title">The Best Cakes In Navalur</h4>
 								<Link to={"/about-1"} className="btn btnhover">About Us</Link>
 								<Link to={''} className="btn white" data-toggle="modal" data-target="#exampleModal">Subscribe Now</Link>
 							</div>	

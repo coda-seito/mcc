@@ -53,13 +53,7 @@ class Header extends Component{
 								<div className="logo-header mostion">
 									<Link to={'/'} className="dez-page"><img src={require("./../../images/logo.png")} alt="" /></Link>
 								</div>
-								<ul className="nav navbar-nav nav1">	
-									<li className="active"><Link to={''}>Home<i className="fa fa-chevron-down"></i></Link>
-										<ul className="sub-menu">
-											<li><Link to={'/'}>Home 01</Link></li>
-											<li><Link to={'/index-2'}>Home 02</Link></li>
-										</ul>
-									</li>
+								<ul className="nav navbar-nav nav1">
 									<li><Link to={''}>Pages<i className="fa fa-chevron-down"></i></Link>
 										<ul className="sub-menu">
 											<li><Link to={'/about-1'}>About Us</Link></li>
@@ -127,14 +121,8 @@ class Header extends Component{
 											<li><Link to ={'/shop-register'}>Register</Link></li>
 										</ul>
 									</li>
-									<li><Link to={''}>Contact Us <i className="fa fa-chevron-down"></i></Link>
-										<ul className="sub-menu left">
-											<li><Link to={'/contact-1'}>Contact Us 1</Link></li>
-											<li><Link to={'/contact-2'}>Contact Us 2</Link></li>
-											
-											
-											
-										</ul>
+									<li>
+										<Link to={'/contact-1'}>Contact Us</Link>
 									</li>
 								</ul>		
 							</div>

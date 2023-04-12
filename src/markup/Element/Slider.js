@@ -13,9 +13,9 @@ class Slider extends Component{
 						<div className="slide" style={{ backgroundImage: "url("+ slider1 +")"}} >
 							{/* <img className="d-block w-100 slider" src={require('./../../images/main-slider/slide1.jpg')}	alt="Second slide"	/> */}
 							<div className="content">
-								<span>Cakes & Bakery</span>
-								<h2 className="title">Buy 1kg Get 1/2kg Free</h2>
-								<h4 className="sub-title">The Best Cakes In Navalur</h4>
+								<span>Best Cakes In Navalur</span>
+								<h2 className="title">Mass Cake Cafe</h2>
+								<h4 className="sub-title">A perfect slice of happiness</h4>
 								<Link to={"/about-1"} className="btn btnhover">About Us</Link>
 								<Link to={''} className="btn white" data-toggle="modal" data-target="#exampleModal">Subscribe Now</Link>
 							</div>	
@@ -25,9 +25,9 @@ class Slider extends Component{
 						<div className="slide" style={{ backgroundImage: "url("+ slider2 +")"}} >
 							{/* <img className="d-block w-100 slider"	src={require('./../../images/main-slider/slide2.jpg')}	alt="Second slide"	/> */}
 							<div className="content">
-								<span>Cakes & Bakery</span>
+								<span>Best Cakes In Navalur</span>
 								<h2 className="title">Occasion Cakes</h2>
-								<h4 className="sub-title">The Best Cakes In Navalur</h4>
+								<h4 className="sub-title">Taste luxury at affordable prices</h4>
 								<Link to={"/about-1"} className="btn btnhover">About Us</Link>
 								<Link to={''} className="btn white" data-toggle="modal" data-target="#exampleModal">Subscribe Now</Link>
 							</div>	

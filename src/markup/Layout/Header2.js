@@ -105,13 +105,7 @@ class Header2 extends Component{
 								<div className="logo-header">
 									<Link to={"./"}><img src={require('./../../images/logo-2.png')} alt="" /> </Link>
 								</div>
-								<ul className="nav navbar-nav">	
-									<li className="active"><Link to={''}>Home<i className="fa fa-chevron-down"></i></Link>
-										<ul className="sub-menu">
-											<li><Link to={"./"}>Home 01</Link></li>
-											<li><Link to={"index-2"}>Home 02</Link></li>
-										</ul>
-									</li>
+								<ul className="nav navbar-nav">
 									<li><Link to={''}>Pages<i className="fa fa-chevron-down"></i></Link>
 										<ul className="sub-menu">
 											<li><Link to={"/about-1"}>About Us</Link></li>

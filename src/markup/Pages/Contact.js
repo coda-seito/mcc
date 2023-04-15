@@ -5,7 +5,6 @@ import GoogleMaps from "simple-react-google-maps";
 import Header from './../Layout/Header';
 import Footer from './../Layout/Footer';
 
-
 var bgimg1 = require('./../../images/banner/bnr1.jpg');
 var bgimg2 = require('./../../images/background/bg5.jpg');
 
@@ -19,15 +18,17 @@ class Contact extends Component{
 				<div className="dlab-bnr-inr overlay-black-middle" style={{backgroundImage: "url(" + bgimg1 + ")"}}>
 					<div className="container">
 						<div className="dlab-bnr-inr-entry">
-							<h1 className="text-white">Contact</h1>
-							
-							<div className="breadcrumb-row">
-								<ul className="list-inline">
-									<li><Link to={'./'}><i className="fa fa-home"></i></Link></li>
-									<li>Contact</li>
-								</ul>
-							</div>
-							
+							<h1 className="text-white">Opening hours</h1>
+							<ul className="col-xl-6 mx-auto work-hour-list">
+								<li>
+									<span className="day"><span>Monday to Friday</span></span>
+									<span className="timing">10AM - 2AM</span>
+								</li>
+								<li>
+									<span className="day"><span>Saturday & Sunday</span></span>
+									<span className="timing">2PM - 2AM</span>
+								</li>
+							</ul>
 						</div>
 					</div>
 				</div>
@@ -41,14 +42,14 @@ class Contact extends Component{
 										<p>If you have any questions simply use the following contact details.</p>
 										<ul className="no-margin">
 											<li className="icon-bx-wraper left m-b30">
-												<div className="icon-bx-xs border-1 text-primary"> <Link to={''} className="icon-cell"><i className="ti-location-pin"></i></Link> </div>
+												<div className="icon-bx-xs border-1 text-primary"> <Link to='/contact' className="icon-cell"><i className="ti-location-pin"></i></Link></div>
 												<div className="icon-content">
 													<h6 className="text-uppercase m-tb0 dlab-tilte">Address:</h6>
 													<p>Rajiv Gandhi Salai Street, near RTS Food Street, Navalur, TN 600130</p>
 												</div>
 											</li>
 											<li className="icon-bx-wraper left  m-b30">
-												<div className="icon-bx-xs border-1 text-primary"> <Link to='javascript:void(0)'
+												<div className="icon-bx-xs border-1 text-primary"> <Link to='/contact'
 																										 onClick={() => window.location = 'mailto:yourmail@domain.com'} className="icon-cell"><i className="ti-email"></i></Link> </div>
 												<div className="icon-content">
 													<h6 className="text-uppercase m-tb0 dlab-tilte">Email:</h6>

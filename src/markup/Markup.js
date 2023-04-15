@@ -13,11 +13,7 @@ import Error from './Pages/Error';
 import Calendar from './Pages/Calendar';
 import Team from './Pages/Team';
 
-import Ourmenustyle1 from './Pages/Ourmenustyle1';
 import Ourmenustyle2 from './Pages/Ourmenustyle2';
-import Ourmenustyle3 from './Pages/Ourmenustyle3';
-import Ourmenustyle4 from './Pages/Ourmenustyle4';
-
 
 import Bloggrid2 from './Pages/Bloggrid2';
 import Bloggridrightsidebar from './Pages/Bloggridrightsidebar';
@@ -48,9 +44,6 @@ import Shopregister from './Pages/Shopregister';
 
 
 import Contact from './Pages/Contact';
-import Contact2 from './Pages/Contact2';
-
-
 
 class Markup extends Component{
 	
@@ -69,12 +62,8 @@ class Markup extends Component{
 					<Route path='/calendar' exact component ={Calendar} />
 					<Route path='/team' exact component ={Team} />
 					
-					
-					<Route path='/our-menu-1' exact component ={Ourmenustyle1} />
-					<Route path='/our-menu-2' exact component ={Ourmenustyle2} />
-					<Route path='/our-menu-3' exact component ={Ourmenustyle3} />
-					<Route path='/our-menu-4' exact component ={Ourmenustyle4} />
-					
+
+					<Route path='/menu' exact component ={Ourmenustyle2} />
 					
 					<Route path='/blog-grid-2' exact component ={Bloggrid2} />
 					<Route path='/blog-grid-2-sidebar' exact component ={Bloggridrightsidebar} />
@@ -103,9 +92,7 @@ class Markup extends Component{
 					<Route path='/shop-register' exact component ={Shopregister} />
 					
 					
-					<Route path='/contact-1' exact component ={Contact} />
-					<Route path='/contact-2' exact component ={Contact2} />
-				
+					<Route path='/contact' exact component ={Contact} />
 					
 					
 				</Switch>

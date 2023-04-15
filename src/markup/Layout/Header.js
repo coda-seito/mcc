@@ -65,14 +65,7 @@ class Header extends Component{
 											<li><Link to={'/team'}>Team</Link></li>
 										</ul>
 									</li>
-									<li><Link to={''}>Our Menu<i className="fa fa-chevron-down"></i></Link>
-										<ul className="sub-menu">
-											<li><Link to ={'/our-menu-1'}>Menu Style 1</Link></li>
-											<li><Link to ={'/our-menu-2'}>Menu Style 2</Link></li>
-											<li><Link to ={'/our-menu-3'}>Menu Style 3</Link></li>
-											<li><Link to ={'/our-menu-4'}>Menu Style 4</Link></li>
-										</ul>
-									</li>
+									<li><Link to={'/menu'}>Menu</Link></li>
 								</ul>
 								<ul className="nav navbar-nav nav2">
 									<li className="has-mega-menu"><Link to={''}>Blog<i className="fa fa-chevron-down"></i></Link>
@@ -122,7 +115,7 @@ class Header extends Component{
 										</ul>
 									</li>
 									<li>
-										<Link to={'/contact-1'}>Contact Us</Link>
+										<Link to={'/contact'}>Contact Us</Link>
 									</li>
 								</ul>		
 							</div>

@@ -30,7 +30,6 @@ class Ourmenustyle2 extends Component{
 						</div>
 					</div>
 				</div>
-				
 					<Tab />
 
 			</div>

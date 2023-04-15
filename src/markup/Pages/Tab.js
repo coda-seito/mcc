@@ -22,8 +22,8 @@ const Popupss = (props) => {
 								<input type="radio"/>
 							   <Link className= {classnames({ active: activeTab === '1' },'item-icon-box nav-link')  } 
 									onClick={() => { toggle('1'); }}  >
-									<i className="flaticon-pizza-slice"></i>
-									<span>Pizza</span>
+									<i className="flaticon-sandwich"></i>
+									<span>Cake</span>
 								</Link>
 							</li>
 							<li className="nav-item item">
@@ -87,61 +87,58 @@ const Popupss = (props) => {
 								<div className="dz-col col m-b30">
 									<div className="item-box shop-item style2">
 										<div className="item-img">
-											<img src={require('./../../images/product/pizza/pic1.jpg')} alt="" />
+											<img src={require('./../../images/product/cake/vanilla.jpg')} alt="" />
 										</div>
 										<div className="item-info text-center">
-											<h4 className="item-title"><Link to={'/shop-product-details'}>Summer Pizza</Link></h4>
-											<h5 className="price text-primary"><del>45</del><span>$40</span></h5>
-											<div className="cart-btn"><Link to={'/shop-product-details'} className="btn btnhover radius-xl"><i className="ti-shopping-cart"></i> Add To Cart</Link></div>
+											<h4 className="item-title"><Link to={'/shop-product-details'}>Vanilla</Link></h4>
+											<h5 className="price text-primary"><span>½ kg - ₹250</span></h5>
+											<div className="cart-btn"><h5 className="price text-primary"><span>1 kg - ₹399</span></h5></div>
+											{/*<div className="cart-btn"><Link to={'/shop-product-details'} className="btn btnhover radius-xl"><i className="ti-shopping-cart"></i> Add To Cart</Link></div>*/}
 										</div>
 									</div>
 								</div>
 								<div className="dz-col col m-b30">
 									<div className="item-box shop-item style2">
 										<div className="item-img">
-											<img src={require('./../../images/product/pizza/pic2.jpg')} alt="" />
+											<img src={require('./../../images/product/cake/black-forest.jpg')} alt="" />
 										</div>
 										<div className="item-info text-center">
-											<h4 className="item-title"><Link to={'/shop-product-details'}>Pepperoni Pizza</Link></h4>
-											<h5 className="price text-primary"><del>45</del><span>$40</span></h5>
-											<div className="cart-btn"><Link to={'/shop-product-details'} className="btn btnhover radius-xl"><i className="ti-shopping-cart"></i> Add To Cart</Link></div>
-										</div>
+											<h4 className="item-title"><Link to={'/shop-product-details'}>Black Forest</Link></h4>
+											<h5 className="price text-primary"><span>½ kg - ₹250</span></h5>
+											<div className="cart-btn"><h5 className="price text-primary"><span>1 kg - ₹399</span></h5></div>										</div>
 									</div>
 								</div>
 								<div className="dz-col col m-b30">
 									<div className="item-box shop-item style2">
 										<div className="item-img">
-											<img src={require('./../../images/product/pizza/pic3.jpg')} alt="" />
+											<img src={require('./../../images/product/cake/green-apple.jpeg')} alt="" />
 										</div>
 										<div className="item-info text-center">
-											<h4 className="item-title"><Link to={'/shop-product-details'}>Apricot Chicken</Link></h4>
-											<h5 className="price text-primary"><del>45</del><span>$40</span></h5>
-											<div className="cart-btn"><Link to={'/shop-product-details'} className="btn btnhover radius-xl"><i className="ti-shopping-cart"></i> Add To Cart</Link></div>
-										</div>
+											<h4 className="item-title"><Link to={'/shop-product-details'}>Green Apple</Link></h4>
+											<h5 className="price text-primary"><span>½ kg - ₹250</span></h5>
+											<div className="cart-btn"><h5 className="price text-primary"><span>1 kg - ₹399</span></h5></div>										</div>
 									</div>
 								</div>
 								<div className="dz-col col m-b30">
 									<div className="item-box shop-item style2">
 										<div className="item-img">
-											<img src={require('./../../images/product/pizza/pic4.jpg')} alt="" />
+											<img src={require('./../../images/product/cake/strawberry.jpg')} alt="" />
 										</div>
 										<div className="item-info text-center">
-											<h4 className="item-title"><Link to={'shop-product-details'}>Liguria Pizza</Link></h4>
-											<h5 className="price text-primary"><del>45</del><span>$40</span></h5>
-											<div className="cart-btn"><Link to={'shop-product-details'} className="btn btnhover radius-xl"><i className="ti-shopping-cart"></i> Add To Cart</Link></div>
-										</div>
+											<h4 className="item-title"><Link to={'shop-product-details'}>Strawberry</Link></h4>
+											<h5 className="price text-primary"><span>½ kg - ₹250</span></h5>
+											<div className="cart-btn"><h5 className="price text-primary"><span>1 kg - ₹499</span></h5></div>										</div>
 									</div>
 								</div>
 								<div className="dz-col col m-b30">
 									<div className="item-box shop-item style2">
 										<div className="item-img">
-											<img src={require('./../../images/product/pizza/pic5.jpg')} alt="" />
+											<img src={require('./../../images/product/cake/strawberry.jpg')} alt="" />
 										</div>
 										<div className="item-info text-center">
-											<h4 className="item-title"><Link to={'/shop-product-details'}>Pizza Veronese</Link></h4>
-											<h5 className="price text-primary"><del>45</del><span>$40</span></h5>
-											<div className="cart-btn"><Link to={'/shop-product-details'} className="btn btnhover radius-xl"><i className="ti-shopping-cart"></i> Add To Cart</Link></div>
-										</div>
+											<h4 className="item-title"><Link to={'/shop-product-details'}>Mango</Link></h4>
+											<h5 className="price text-primary"><span>½ kg - ₹250</span></h5>
+											<div className="cart-btn"><h5 className="price text-primary"><span>1 kg - ₹499</span></h5></div>										</div>
 									</div>
 								</div>
 							</div>	

@@ -18,7 +18,7 @@ class Ourmenustyle2 extends Component{
 				<div className="dlab-bnr-inr overlay-black-middle no-line" style={{backgroundImage:"url(" + img + ")"}}>
 					<div className="container">
 						<div className="dlab-bnr-inr-entry">
-							<h1 className="text-white">Our Menu 2</h1>
+							<h1 className="text-white">Menu</h1>
 							
 							<div className="breadcrumb-row">
 								<ul className="list-inline">
@@ -30,7 +30,7 @@ class Ourmenustyle2 extends Component{
 						</div>
 					</div>
 				</div>
-					<Tab />
+				<Tab />
 
 			</div>
 			<Footer  />

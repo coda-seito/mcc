@@ -20,7 +20,7 @@ class Footer2 extends Component{
 										<li><Link to={"/contact-1"}>Contact Us</Link></li> 
 									</ul>
 								</div>
-								<p className="copyright">Copyright © 2021 DexignZone. all rights reserved.</p>
+								<p className="copyright">Copyright © 2023 EC2. all rights reserved.</p>
 								<ul className="dlab-social-icon">
 									<li><Link className="btn white outline circle mr-2"><i className="fa fa-facebook"></i></Link></li>
 									<li><Link className="btn white outline circle mr-2"><i className="fa fa-google-plus"></i></Link></li>

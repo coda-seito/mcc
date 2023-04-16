@@ -6,7 +6,7 @@
     "@fullcalendar/daygrid": "^5.5.0",
     "@fullcalendar/react": "^5.5.0",
     "bootstrap": "^4.5.3",
-    "react": "^16.14.0",
+    "react": "^18.2.0",
     "react-animated-slider": "^1.1.4",
     "react-bootstrap": "^1.4.0",
     "react-countup": "^4.3.3",
@@ -16,12 +16,13 @@
     "react-masonry-css": "^1.0.14",
     "react-multi-carousel": "^2.6.1",
     "react-rev-slider": "^1.0.1",
-    "react-router-dom": "^5.2.0",
+    "react-router-dom": "^5.3.4",
     "react-scripts": "^3.4.4",
     "react-slick": "^0.25.2",
     "reactstrap": "^8.7.1",
     "simple-react-google-maps": "^1.1.2",
-    "simple-react-lightbox": "^3.5.4"
+    "simple-react-lightbox": "^3.5.4",
+    "query-string": "^8.1.0"
   },
   "scripts": {
     "start": "react-scripts start",

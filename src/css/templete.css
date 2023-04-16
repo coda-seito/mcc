@@ -1431,14 +1431,6 @@
     -ms-transition: all 0.5s;
     -o-transition: all 0.5s;
 }
-.shop-item.style2:hover  .item-info{
-    transform: translateY(-100%);
-    -moz-transform: translateY(-100%);
-    -webkit-transform: translateY(-100%);
-    -ms-transform: translateY(-100%);
-    -o-transform: translateY(-100%);
-	padding: 15px 20px 15px 20px;
-}
 .shop-item.style2 .item-img{
     box-shadow: none;
     padding: 0;

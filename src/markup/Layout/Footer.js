@@ -92,19 +92,14 @@ class Footer extends Component{
 							<div className="col-xl-3 col-lg-6 col-md-6 col-sm-6">
 								<div className="widget border-0">
 								   <h4 className="footer-title">Opening Hours</h4>
-								   <p className="m-b20">Our support available to help you 24 hours a day, seven days a week.</p>
 									<ul className="work-hour-list">
 										<li>
 											<span className="day"><span>Monday to Friday</span></span> 
-											<span className="timing">7AM - 5PM</span>
+											<span className="timing">10AM - 2AM</span>
 										</li>
 										<li>
-											<span className="day"><span>Saturday</span></span>
-											<span className="timing">10AM - 5PM</span>
-										</li>
-										<li>
-											<span className="day"><span>Sunday</span></span>
-											<span className="timing">Closed</span>
+											<span className="day"><span>Saturday & Sunday</span></span>
+											<span className="timing">2PM - 2AM</span>
 										</li>
 									</ul>
 								</div>
@@ -116,7 +111,7 @@ class Footer extends Component{
 				<div className="footer-bottom">
 					<div className="container">
 						<div className="row">
-							<div className="col-lg-6 col-md-6 text-left"> <span>Copyright © 2021 DexignZone. all rights reserved.</span> </div>
+							<div className="col-lg-6 col-md-6 text-left"> <span>Copyright © 2023 EC2 Software, Los Angeles. All rights reserved.</span> </div>
 							<div className="col-lg-6 col-md-6 text-right"> 
 								<div className="widget-link"> 
 									<ul>

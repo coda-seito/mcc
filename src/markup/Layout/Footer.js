@@ -19,19 +19,23 @@ class Footer extends Component{
 									<ul>
 										<li>
 											<i className="fa fa-map-marker"></i> 
-											<p>Marmora City, Vietnam</p>
-										</li>
-										<li>
-											<i className="fa fa-phone"></i> 
-											<p>0800-123456</p>
+											<p>Rajiv Gandhi Salai Street, near RTS Food Street, Navalur</p>
 										</li>
 										<li>
 											<i className="fa fa-mobile"></i> 
-											<p>(+91) 0800-123456</p>
+											<p>(+91) 7845963618</p>
 										</li>
 										<li>
-											<i className="fa fa-envelope"></i> 
-											<p>info@example.com</p>
+											<i className="fa fa-envelope"></i>
+											<p>mass.cakecafe@gmail.com</p>
+										</li>
+										<li>
+											<i className="fa fa-globe"></i>
+											<p>www.masscakecafe.com</p>
+										</li>
+										<li>
+											<i className="fa fa-instagram"></i>
+											<p>@mass.cakecafe</p>
 										</li>
 									</ul>
 								</div>

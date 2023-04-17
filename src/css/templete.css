@@ -22,7 +22,7 @@
 	height:800px;
 	background-position:center;
 	position:relative;
-    background-size: cover;	
+    background-size: cover;
 }
 .main-slider .slide .content{
     width: 100%;
@@ -86,7 +86,7 @@
 	height:100vh;
 	background-position:center;
 	position:relative;
-    background-size: cover;	
+    background-size: cover;
 }
 .banner .title{
     font-size: 89px;
@@ -220,7 +220,7 @@
     border-radius: 6px;
     display: inline-block;
     margin-left: auto;
-    margin-right: auto;	
+    margin-right: auto;
 }
 .dlab-bnr-inr .breadcrumb-row ul li a{
 	opacity: 1;
@@ -263,8 +263,8 @@
 	color: #fff;
 }
 .section-head p{
-	font-weight: 300; 
-	color: #222; 
+	font-weight: 300;
+	color: #222;
 	font-size: 20px;
 }
 .section-head h2 {
@@ -479,7 +479,7 @@
     font-size: 20px;
 	font-family: "Open Sans",sans-serif;
 	padding: 20px 40px 20px 25px;
-	
+
 }
 .faq-style1 .acod-head a:after{
 	color:#fff;
@@ -596,7 +596,7 @@
     background-image: linear-gradient(0deg,#005b5f,rgba(0,24,23,0.0));
     font-size: 24px;
     line-height: 1.3;
-    text-transform: capitalize;	
+    text-transform: capitalize;
 }
 .port-box1 .dlab-info .hover{
 	padding: 30px;
@@ -638,14 +638,14 @@
 }
 .counter-style-1 .counter-num small{
 	font-size: 50px;
-	font-weight: 700;	
+	font-weight: 700;
 }
 
 
 /* About Us */
 .about-area1{
 	background-color: #5fcac7;
-    box-shadow: 0px 20px 50px 0 rgba(0,0,0,0.1);	
+    box-shadow: 0px 20px 50px 0 rgba(0,0,0,0.1);
 }
 .about-area1 .about-bx {
     padding: 45px 80px;
@@ -676,7 +676,7 @@
 .blog-post.blog-rounded{
 	border-radius: 4px;
 	overflow: hidden;
-    box-shadow: 0px 10px 40px 0 rgba(0,0,0,0.1);	
+    box-shadow: 0px 10px 40px 0 rgba(0,0,0,0.1);
 }
 
 /* Blog Lg */
@@ -733,7 +733,7 @@
 .side-bar .widget .widget-title.style-2:after{
 	content: none;
 }
-.widget.widget_tag_cloud .tagcloud a, 
+.widget.widget_tag_cloud .tagcloud a,
 .dlab-post-tags .post-tags a {
     background-color: var(--color-primary);
     border-radius: 4px;
@@ -847,6 +847,7 @@
 	font-size: 16px;
 	color: #fff;
 	line-height: 30px;
+    text-transform: none;
 }
 .site-footer .footer-bottom{
 	background-color: #5fcac7;
@@ -937,7 +938,7 @@
 }
 .recent-posts-entry .widget-post:last-child{
 	border-bottom: 0;
-	padding-bottom: 0;	
+	padding-bottom: 0;
 }
 .recent-posts-entry .dlab-post-info {
     padding-left: 20px;
@@ -992,7 +993,7 @@
     border-radius: 20px;
     max-width: 550px;
     width: 550px;
-	border: 0;	
+	border: 0;
 }
 .subscribe-box .modal-header{
     background: transparent;
@@ -1013,7 +1014,7 @@
 	font-size:16px;
 	line-height:24px;
 	color:#70738d;
-    margin-bottom: 35px;	
+    margin-bottom: 35px;
 }
 .subscribe-box  .modal-header .close{
 	margin: 0;
@@ -1504,7 +1505,7 @@
 	top: 15px;
     right: 15px;
     font-size: 20px;
-	color: #000;	
+	color: #000;
     z-index: 9;
     width: 36px;
     height: 36px;
@@ -1552,7 +1553,7 @@
 	top: 7px;
 }
 .custom-select:focus{
-	
+
 	box-shadow: none;
 }
 
@@ -1561,7 +1562,7 @@
 	padding: 25px;
     border: 2px solid #5fcac7;
     border-radius: 0 6px 6px 6px;
-    background: #fff;	
+    background: #fff;
 }
 .product-description .nav-tabs li a {
 	font-size: 16px;
@@ -1604,7 +1605,7 @@
 .product-description ol.commentlist li .comment-text {
     padding-left: 30px;
 }
-.product-description .comment-form [class*="comment-form"] input, 
+.product-description .comment-form [class*="comment-form"] input,
 .product-description .comment-form [class*="comment-form"] textarea {
     border-radius: 6px;
 }
@@ -1641,7 +1642,7 @@ ol.comment-list li.comment .comment-body {
     padding: 30px;
     margin-bottom: 15px;
 }
-ol.comment-list li.comment .comment-body:before, 
+ol.comment-list li.comment .comment-body:before,
 ol.comment-list li.comment .comment-body:after{
 	content: none;
 }
@@ -1691,7 +1692,7 @@ ol.comment-list li.comment .reply a {
     padding: 0;
     border: 0;
 }
-.comments-area .comment-form p input[type="text"], 
+.comments-area .comment-form p input[type="text"],
 .comments-area .comment-form p textarea {
     height: 50px;
     padding: 8px 25px 8px 25px;
@@ -1866,7 +1867,7 @@ ol.comment-list li.comment .reply a {
 }
 .pizza-header .logo-header{
 	height:90px;
-    width: 200px;	
+    width: 200px;
 }
 .pizza-header .extra-nav{
     height: 90px;
@@ -1878,7 +1879,7 @@ ol.comment-list li.comment .reply a {
     height: 30px;
     position: relative;
     margin-left: 30px;
-	cursor: pointer;	
+	cursor: pointer;
 }
 .menu-btn span{
     position: absolute;
@@ -1917,7 +1918,7 @@ ol.comment-list li.comment .reply a {
 	-moz-transition:inherit;
 	-ms-transition:inherit;
 	-webkit-transition:inherit;
-	-o-transition:inherit;	
+	-o-transition:inherit;
 }
 .menu-btn span:before{
 	left: -12px;
@@ -1926,7 +1927,7 @@ ol.comment-list li.comment .reply a {
 	right: -12px;
 }
 .pizza-header .dlab-social-icon {
-	margin-left: 20px;	
+	margin-left: 20px;
 }
 .pizza-header .dlab-social-icon li a{
 	font-size: 14px;
@@ -1936,10 +1937,10 @@ ol.comment-list li.comment .reply a {
     line-height: 28px;
     width: 28px;
     height: 28px;
-	margin-right: 5px;	
+	margin-right: 5px;
 }
 .pizza-header .main-bar{
-	border-bottom: 1px solid rgba(255,255,255,0.2);	
+	border-bottom: 1px solid rgba(255,255,255,0.2);
 }
 .adv-box{
 	margin-bottom:30px;
@@ -1978,7 +1979,7 @@ ol.comment-list li.comment .reply a {
     padding: 0;
     list-style: none;
     display: flex;
-    flex-wrap: wrap;	
+    flex-wrap: wrap;
 }
 .menu-list-2 li p{
     margin-bottom: 0;
@@ -1986,15 +1987,15 @@ ol.comment-list li.comment .reply a {
     color: #444;
     font-weight: 400;
     line-height: 1.5;
-	
+
 }
 .menu-list-2 li{
     display: block;
     font-family: Barlow, sans-serif;
     flex: 50%;
     padding: 0 20px;
-    max-width: 50%;	
-    margin-bottom: 25px;	
+    max-width: 50%;
+    margin-bottom: 25px;
 }
 .menu-list-2 li .info-price .price{
 	color: var(--color-primary);
@@ -2020,7 +2021,7 @@ ol.comment-list li.comment .reply a {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
-	margin-bottom: 5px;	
+	margin-bottom: 5px;
 }
 .menu-list-2 li .info-price .title{
 	font-family: Barlow, sans-serif;
@@ -2139,7 +2140,7 @@ li:last-child .item-icon-box:after{
     display: block;
 }
 .pizza-footer{
-	text-align:center	
+	text-align:center
 }
 .pizza-footer .widget-link{
 	margin-bottom:15px;
@@ -2178,12 +2179,12 @@ li:last-child .item-icon-box:after{
 .fc-state-default {
   background-image: unset;
 }
-.fc-button.fc-state-default:hover, 
-.fc-button.fc-state-default:hover, 
-.fc-button.fc-state-down, 
+.fc-button.fc-state-default:hover,
+.fc-button.fc-state-default:hover,
+.fc-button.fc-state-down,
 .fc-button.fc-state-active{
 	box-shadow:none;
-	
+
 }
 .fc-day-header.fc-widget-header {
     border-color: rgba(255, 255, 255, 0.2);
@@ -2197,17 +2198,17 @@ li:last-child .item-icon-box:after{
 	border:0;
 	border-radius: 0;
 	padding:5px 10px;
-}	
+}
 
-.fc-unthemed th, 
-.fc-unthemed td, 
-.fc-unthemed thead, 
-.fc-unthemed tbody, 
-.fc-unthemed .fc-divider, 
-.fc-unthemed .fc-row, 
-.fc-unthemed .fc-content, 
-.fc-unthemed .fc-popover, 
-.fc-unthemed .fc-list-view, 
+.fc-unthemed th,
+.fc-unthemed td,
+.fc-unthemed thead,
+.fc-unthemed tbody,
+.fc-unthemed .fc-divider,
+.fc-unthemed .fc-row,
+.fc-unthemed .fc-content,
+.fc-unthemed .fc-popover,
+.fc-unthemed .fc-list-view,
 .fc-unthemed .fc-list-heading td {
     border-color: rgba(0, 0, 0, 0.1);
 }
@@ -2278,9 +2279,9 @@ td.fc-event-container {
 		color: #fff;
 		font-size: 18px;
 		padding: 35px 15px 35px 15px;
-		font-weight: 400;	
+		font-weight: 400;
 	}
-	
+
 }
 
 @media only screen and (max-width: 1200px){
@@ -2327,16 +2328,16 @@ td.fc-event-container {
 	}
 	.main-slider .title{
 	    font-size: 80px;
-	    line-height: 1.1;	
+	    line-height: 1.1;
 	}
 	.banner .title{
 	    font-size: 80px;
-	    line-height: 1.1;	
+	    line-height: 1.1;
 	}
 	.main-slider .sub-title{
 	    font-size: 18px;
 		margin-top: 10px;
-		margin-bottom: 30px;	
+		margin-bottom: 30px;
 	}
 	.main-slider .content span {
 		font-size: 24px;
@@ -2378,7 +2379,7 @@ td.fc-event-container {
 		padding-left:0;
 	}
 	.section-head .text-bold{
-	    font-size: 15px;	
+	    font-size: 15px;
 	}
 	.port-box1 .dlab-info .title {
 		padding: 50px 20px 15px;
@@ -2481,7 +2482,7 @@ td.fc-event-container {
 		margin-bottom: 40px;
 	}
 	.port-box1{
-	    margin-bottom: 30px;	
+	    margin-bottom: 30px;
 	}
 	.faq-style1{
 		margin-top:20px;
@@ -2498,7 +2499,7 @@ td.fc-event-container {
 		font-size: 50px;
 		line-height: 1.1;
 	}
-	
+
 	.header-nav .logo-header {
 		display: block;
 	}
@@ -2551,13 +2552,13 @@ td.fc-event-container {
 		height: 35px;
 	}
 	.header-transparent .is-fixed .main-bar{
-	    background-color:var(--color-primary);	
+	    background-color:var(--color-primary);
 	}
 }
 
 @media only screen and (max-width: 767px){
 	body{
-	    font-size: 14px;	
+	    font-size: 14px;
 	}
 	.faq-area1 .m-r20{
 		margin-right:0;
@@ -2626,7 +2627,7 @@ td.fc-event-container {
 	.service-box2 .dlab-tilte {
 		font-size: 18px;
 		line-height: 24px;
-	    margin-bottom: 0;	
+	    margin-bottom: 0;
 	}
 	.service-box2 .icon-cell img {
 		width: 50px;
@@ -2660,7 +2661,7 @@ td.fc-event-container {
 		padding-bottom: 20px;
 	}
 	.service-area1{
-		padding: 50px 0 30px;	
+		padding: 50px 0 30px;
 	}
 	.main-slider .slide {
 		height: 500px;
@@ -2740,7 +2741,7 @@ td.fc-event-container {
 		width: 160px;
 	}
 	.pizza-header .extra-nav{
-		height: 70px;	
+		height: 70px;
 	}
 	.pizza-items{
 		padding:15px 0;
@@ -2768,7 +2769,7 @@ td.fc-event-container {
 
 @media only screen and (max-width: 591px){
 	.subscribe-box .modal-header img{
-		width: 90px;	
+		width: 90px;
 	}
 	.header-style-1 .logo-header {
 		padding: 15px 0 15px;
@@ -2897,34 +2898,34 @@ td.fc-event-container {
 	    bottom: -5px;
 		width: 100%;
 		height: 5px;
-		background-size: 50px;	
+		background-size: 50px;
 	}
 	.bg-line-top:before,
 	.bg-line-bottom:after{
-		background-size: 50px;		
+		background-size: 50px;
 	}
 	.is-fixed .logo-header{
-	    width: 120px;	
+	    width: 120px;
 	}
 	.main-slider a {
 		padding: 10px 20px;
 		font-size: 14px;
 	}
 	.main-slider .slide .content{
-	    padding: 0 20px;	
+	    padding: 0 20px;
 	}
 	.service-box1:after{
-	    height: 70%;	
+	    height: 70%;
 	}
 	.about-thumb img{
 		margin:0;
 	}
 	.about-thumb{
 	    padding: 0;
-		margin: 0;	
+		margin: 0;
 	}
 	.footer-top{
-	    padding: 50px 0 20px;	
+	    padding: 50px 0 20px;
 	}
 	.blog-post,
 	.side-bar .widget{
@@ -2933,12 +2934,12 @@ td.fc-event-container {
 	.about-area1 img.img-cover{
 		height: 300px;
 	}
-	.row.sp30, 
+	.row.sp30,
 	.sp30 {
 		margin-left: -15px;
 		margin-right: -15px;
-	}	
-	.row.sp30 [class*="col-"], 
+	}
+	.row.sp30 [class*="col-"],
 	.sp30 [class*="col-"] {
 		padding-left: 15px;
 		padding-right: 15px;
@@ -3021,6 +3022,6 @@ td.fc-event-container {
 	.tp-pizza-title br:first-child{
 		display:none;
 	}
-	
-	
+
+
 }

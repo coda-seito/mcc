@@ -2689,6 +2689,10 @@ td.fc-event-container {
 		padding: 2px 2px;
 		margin-bottom: 0;
 	}
+    .pizza-items .icon {
+        height: 20px;
+        weight: 20px;
+    }
 	.testimonial-1 .testimonial-text p {
 		font-size: 24px;
 	}

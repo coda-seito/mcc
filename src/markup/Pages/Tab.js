@@ -26,7 +26,6 @@ const Popupss = (props) => {
     return (
         <div class="section-full bg-white pizza-full-menu">
             <div tabs>
-
                 <div className="bg-primary pizza-items">
                     <div className="container">
                         <ul className="nav nav-tabs pizza-items filters">
@@ -36,7 +35,7 @@ const Popupss = (props) => {
                                       onClick={() => {
                                           toggle('1');
                                       }}>
-                                    <i className="flaticon-sandwich"></i>
+                                    <img src={require('./../../images/icons/service-icon/cake.png')} alt="" />
                                     <span>Cake</span>
                                 </Link>
                             </li>

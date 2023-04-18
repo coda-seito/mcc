@@ -70,7 +70,7 @@ class Index1 extends Component{
 										<div className="icon-bx-wraper text-center service-box1" style={{backgroundImage: "url(" + serblog2 + ")"}}>
 											<div className="icon-content">
 												<h2 className="dlab-tilte text-white">Beverages</h2>
-												<p>Milk shakes & smoothies</p>
+												<p>Milk shakes & Bubble tea</p>
 												<div className="dlab-separator style1 bg-primary"></div>
 												<Link to={('/shop-product-details')} className="btn btnhover">More details <i className="fa fa-angle-double-right m-l5"></i></Link>
 											</div>
@@ -79,8 +79,8 @@ class Index1 extends Component{
 									<div className="col-xl-3 col-lg-3 col-md-6 col-sm-6">
 										<div className="icon-bx-wraper text-center service-box1" style={{backgroundImage: "url(" + serblog4 + ")"}}>
 											<div className="icon-content">
-												<h2 className="dlab-tilte text-white">Cupcakes</h2>
-												<p>Lorem Ipsum is simply </p>
+												<h2 className="dlab-tilte text-white">Sweet Bites</h2>
+												<p>Brownies & Swiss Rolls</p>
 												<div className="dlab-separator style1 bg-primary"></div>
 												<Link to={('/shop-product-details')} className="btn btnhover">More details <i className="fa fa-angle-double-right m-l5"></i></Link>
 											</div>

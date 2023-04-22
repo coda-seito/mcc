@@ -94,7 +94,7 @@ class Index1 extends Component{
 												<img src={require('./../../images/cake1.jpg')} alt="" />
 											</div>
 											<h3 className="text-primary">It’s a party and you’re invited</h3>
-											<p className="main-text">Join DexignZone <strong>Bakery</strong>™ to earn Gold level benefits like free Cakes and food, get free refills, pay and order with your phone, and more.</p>
+											<p className="main-text">Join Mass Cake Cafe(<strong>Mc<sup>2</sup></strong>) to earn Gold level benefits like free Cakes and food, exclusive discounts, access to secret menu and more.</p>
 											<p>Exclusive deals on Cakes, delivered straight to your inbox <Link to={''}>Join Now</Link></p>
 										</div>
 									</div>
@@ -107,7 +107,7 @@ class Index1 extends Component{
 									<div className="col-lg-12">
 										<div className="section-head text-center">
 											<h2 className="text-white">What Do We Offer For You?</h2>
-											<p className="text-bold">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+											<p className="text-bold">We offer a wide range of services and products to meet your needs. Whether you're looking for a quick snack, a custom cake for a special occasion, or catering services for a corporate event, we've got you covered.</p>
 											<div className="dlab-separator style1 bg-primary"></div>
 										</div>
 									</div>
@@ -183,76 +183,6 @@ class Index1 extends Component{
 														<p>Lorem Ipsum is dummy</p>
 													</div>
 												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div className="section-full content-inner bg-gray" style={{backgroundImage:"url(" + img2 + ")",  backgroundSize:"100%"}}>
-							<div className="container">
-								<div className="row faq-area1">
-									<div className="col-lg-6 m-b30">
-										<div className="m-r20">
-											<div className="section-head text-left">
-												<h2>Sale And Delivery Points</h2>
-												<p className="text-bold">Where to buy our high quality Cake</p>
-												<div className="dlab-separator style1 bg-primary"></div>
-											</div>
-											<div className="clearfix">
-												<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
-												<p className="text">First and foremost I am a chef, whether behind the stove at one of my Northern California restaurants or for the past 15 years in front of the Lorem Ipsum is simply <strong>Bakery</strong> dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.</p>
-												<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
-												<Link to={'/faq'} className="btn btn-md btnhover shadow m-t30"><i className="fa fa-angle-right m-r10"></i>Get Started</Link>
-											</div>
-										</div>
-									</div>
-									<div className="col-lg-6 m-b30">
-										<Accord />
-									</div>
-								</div>
-							</div>
-						</div>
-						<div className="section-full bg-white">
-							<div className="container-fluid">
-								<div className="row">
-									<div className="col-lg-3 col-md-6 col-sm-6">
-										<div className="port-box1 text-white">
-											<div className="dlab-media">
-												<img src={require('./../../images/our-work/pic1.jpg')} alt="" />
-											</div>
-											<div className="dlab-info">
-												<h2 className="title">vegan pie</h2>
-											</div>
-										</div>
-									</div>
-									<div className="col-lg-3 col-md-6 col-sm-6">
-										<div className="port-box1 text-white">
-											<div className="dlab-media">
-												<img src={require('./../../images/our-work/pic2.jpg')} alt="" />
-											</div>
-											<div className="dlab-info">
-												<h2 className="title">lemon cake</h2>
-											</div>
-										</div>
-									</div>
-									<div className="col-lg-3 col-md-6 col-sm-6">
-										<div className="port-box1 text-white">
-											<div className="dlab-media">
-												<img src={require('./../../images/our-work/pic3.jpg')} alt="" />
-											</div>
-											<div className="dlab-info">
-												<h2 className="title">wedding cake</h2>
-											</div>
-										</div>
-									</div>
-									<div className="col-lg-3 col-md-6 col-sm-6">
-										<div className="port-box1 text-white m-md-b0 m-sm-b0">
-											<div className="dlab-media">
-												<img src={require('./../../images/our-work/pic2.jpg')} alt="" />
-											</div>
-											<div className="dlab-info">
-												<h2 className="title">fruit cake</h2>
 											</div>
 										</div>
 									</div>

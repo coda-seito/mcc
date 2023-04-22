@@ -61,7 +61,6 @@ class Markup extends Component{
 					<Route path='/error-404' exact component ={Error} />
 					<Route path='/calendar' exact component ={Calendar} />
 					<Route path='/team' exact component ={Team} />
-					
 
 					<Route path='/menu' exact component ={Ourmenustyle2} />
 					

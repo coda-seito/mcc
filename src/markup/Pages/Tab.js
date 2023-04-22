@@ -2,23 +2,22 @@ import React, {useState} from 'react';
 import {TabContent, TabPane,} from 'reactstrap';
 import classnames from 'classnames';
 import {useLocation, Link} from 'react-router-dom';
-import queryString from 'query-string'
 import items from "./resources/data";
 
 const Popupss = (props) => {
-    const {search} = useLocation();
-    const values = queryString.parse(search)
-    const tab = values.tab
-    let initialState = '1'
-    switch (tab) {
-        case 'cakes':
-            initialState = '1'
-            break;
-        case 'sandwiches':
-            initialState = '2'
-            break;
-    }
-    const [activeTab, setActiveTab] = useState(initialState);
+    // const {search} = useLocation();
+    // const values = queryString.parse(search)
+    // const tab = values.tab
+    // let initialState = '1'
+    // switch (tab) {
+    //     case 'cakes':
+    //         initialState = '1'
+    //         break;
+    //     case 'sandwiches':
+    //         initialState = '2'
+    //         break;
+    // }
+    const [activeTab, setActiveTab] = useState('1');
 
     const toggle = tab => {
         if (activeTab !== tab) setActiveTab(tab);

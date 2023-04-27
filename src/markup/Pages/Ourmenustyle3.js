@@ -15,15 +15,6 @@ class Ourmenustyle3 extends Component {
 
                 <div className="page-content bg-white">
 
-                    <div className="dlab-bnr-inr overlay-black-middle no-line"
-                         style={{backgroundImage: "url(" + img + ")"}}>
-                        <div className="container">
-                            <div className="dlab-bnr-inr-entry">
-                                <h1 className="text-white">Hotel Menu</h1>
-                            </div>
-                        </div>
-                    </div>
-
                     <div className="section-full bg-white">
                         {
                             Object.keys(items).map((item) => (

@@ -121,7 +121,7 @@ class Index1 extends Component{
 											<div className="col-lg-6 col-sm-6 m-b30">
 												<div className="icon-bx-wraper text-white service-box2">
 													<div className="icon-bx">
-														<Link to={''} className="icon-cell"><img src={require('./../../images/icons/service-icon/icon2.png')} alt="" /></Link>
+														<img src={require('./../../images/icons/service-icon/icon2.png')} alt="" />
 													</div>
 													<div className="icon-content">
 														<h5 className="dlab-tilte">Pancakes</h5>
@@ -132,7 +132,7 @@ class Index1 extends Component{
 											<div className="col-lg-6 col-sm-6 m-b30">
 												<div className="icon-bx-wraper text-white service-box2">
 													<div className="icon-bx">
-														<Link to={''} className="icon-cell"><img src={require('./../../images/icons/service-icon/icon3.png')} alt="" /></Link> 
+														<img src={require('./../../images/icons/service-icon/icon3.png')} alt="" />
 													</div>
 													<div className="icon-content">
 														<h5 className="dlab-tilte">Muffin</h5>
@@ -143,7 +143,7 @@ class Index1 extends Component{
 											<div className="col-lg-6 col-sm-6 m-b30">
 												<div className="icon-bx-wraper text-white service-box2">
 													<div className="icon-bx">
-														<Link to={''} className="icon-cell"><img src={require('./../../images/icons/service-icon/icon4.png')} alt="" /></Link> 
+														<img src={require('./../../images/icons/service-icon/icon4.png')} alt="" />
 													</div>
 													<div className="icon-content">
 														<h5 className="dlab-tilte">Pumpkin cakes</h5>
@@ -154,7 +154,7 @@ class Index1 extends Component{
 											<div className="col-lg-6 col-sm-6 m-b30">
 												<div className="icon-bx-wraper text-white service-box2">
 													<div className="icon-bx">
-														<Link to={''} className="icon-cell"><img src={require('./../../images/icons/service-icon/icon5.png')} alt="" /></Link> 
+														<img src={require('./../../images/icons/service-icon/icon5.png')} alt="" />
 													</div>
 													<div className="icon-content">
 														<h5 className="dlab-tilte">Pumpkin Cupcakes</h5>
@@ -165,7 +165,7 @@ class Index1 extends Component{
 											<div className="col-lg-6 col-sm-6 m-b30">
 												<div className="icon-bx-wraper text-white service-box2">
 													<div className="icon-bx">
-														<Link to={''} className="icon-cell"><img src={require('./../../images/icons/service-icon/icon5.png')} alt="" /></Link> 
+														<img src={require('./../../images/icons/service-icon/icon5.png')} alt="" />
 													</div>
 													<div className="icon-content">
 														<h5 className="dlab-tilte">Cake Services</h5>
@@ -176,7 +176,7 @@ class Index1 extends Component{
 											<div className="col-lg-6 col-sm-6 m-b30">
 												<div className="icon-bx-wraper text-white service-box2">
 													<div className="icon-bx"> 
-														<Link to={''} className="icon-cell"><img src={require('./../../images/icons/service-icon/icon1.png')} alt="" /></Link>  
+														<img src={require('./../../images/icons/service-icon/icon1.png')} alt="" />
 													</div>
 													<div className="icon-content">
 														<h5 className="dlab-tilte">Birthday Cake</h5>
@@ -202,47 +202,11 @@ class Index1 extends Component{
 										</div>
 									</div>
 								</div>
-								<div className="row">
-									<div className="col-lg-3 col-md-6 col-sm-6 col-6 m-b30">
-										<div className="counter-style-1 text-center">
-											<div className="counter-num text-primary">
-												<span className="counter"><CountUp end={53} /></span>
-												<small>+</small>
-											</div>
-											<span className="counter-text">Years of Experience</span>
-										</div>
-									</div>
-									<div className="col-lg-3 col-md-6 col-sm-6 col-6 m-b30">
-										<div className="counter-style-1 text-center">
-											<div className="counter-num text-primary">
-												<span className="counter"><CountUp end={102} /></span>
-											</div>
-											<span className="counter-text">Awards Wins</span>
-										</div>
-									</div>
-									<div className="col-lg-3 col-md-6 col-sm-6 col-6 m-b30">
-										<div className="counter-style-1 text-center">
-											<div className="counter-num text-primary">
-												<span className="counter"><CountUp end={36} /></span>
-												<small>k</small>
-											</div>
-											<span className="counter-text">Happy Clients</span>
-										</div>
-									</div>
-									<div className="col-lg-3 col-md-6 col-sm-6 col-6 m-b30">
-										<div className="counter-style-1 text-center">
-											<div className="counter-num text-primary">
-												<span className="counter"><CountUp end={99} /></span>
-											</div>
-											<span className="counter-text">Perfect Products</span>
-										</div>
-									</div>
-								</div>
 							</div>
 							<div className="container">
 								<div className="row m-lr0 about-area1">
 									<div className="col-lg-6 p-lr0">
-										<img className="img-cover" src={require('./../../images/about/pic3.jpg')} alt="" />
+										<img className="img-cover" src={require('./../../images/about/pic3-1.jpg')} alt="" />
 									</div>
 									<div className="col-lg-6 p-lr0 d-flex align-items-center text-center">
 										<div className="about-bx">
@@ -257,11 +221,6 @@ class Index1 extends Component{
 											<Link to={'about-1'} className="btn-secondry white btnhover btn-md"><i className="fa fa-cart"></i>GET NOW</Link>
 										</div>
 									</div>
-								</div>
-							</div>
-							<div className="container">
-								<div className="row client-area1 p-t80">
-									<OurPartners  />
 								</div>
 							</div>
 							<div className="container content-inner">

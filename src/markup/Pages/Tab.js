@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import {TabContent, TabPane,} from 'reactstrap';
 import classnames from 'classnames';
 import {useLocation, Link} from 'react-router-dom';
-import items from "./resources/data";
+import items from "./resources/cakes";
 
 const Popupss = (props) => {
     // const {search} = useLocation();

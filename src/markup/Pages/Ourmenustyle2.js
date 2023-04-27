@@ -12,7 +12,6 @@ class Ourmenustyle2 extends Component{
 		return(
 			<>
 			<Header />
-
 			<div className="page-content bg-white">
 				<Tab />
 			</div>

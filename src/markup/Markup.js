@@ -14,6 +14,8 @@ import Calendar from './Pages/Calendar';
 import Team from './Pages/Team';
 
 import Ourmenustyle2 from './Pages/Ourmenustyle2';
+import Ourmenustyle3 from './Pages/Ourmenustyle3';
+
 
 import Bloggrid2 from './Pages/Bloggrid2';
 import Bloggridrightsidebar from './Pages/Bloggridrightsidebar';
@@ -63,7 +65,8 @@ class Markup extends Component{
 					<Route path='/team' exact component ={Team} />
 
 					<Route path='/menu' exact component ={Ourmenustyle2} />
-					
+					<Route path='/hotel-menu' exact component ={Ourmenustyle3} />
+
 					<Route path='/blog-grid-2' exact component ={Bloggrid2} />
 					<Route path='/blog-grid-2-sidebar' exact component ={Bloggridrightsidebar} />
 					<Route path='/blog-grid-2-sidebar-left' exact component ={Bloggridleftsidebar} />

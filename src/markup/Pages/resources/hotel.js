@@ -146,9 +146,8 @@ const items = {
         idx: [
             "Brownie With Ice Cream,90",
             "Vanilla Ice Cream,60",
-            "Ice Cream Topped With Chco,70",
-            "Ice Cream Topped With Any",
-            "Flavours,70",
+            "Ice Cream Topped With Chocolate,70",
+            "Ice Cream Topped With Any Flavours,70",
             "Titanic Ice Cream,99"
         ]
     }

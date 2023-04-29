@@ -223,46 +223,6 @@ class Index1 extends Component{
 									</div>
 								</div>
 							</div>
-							<div className="container content-inner">
-								<div className="row">
-									<div className="col-lg-12">
-										<div className="section-head text-center">
-											<div className="icon-bx icon-bx-xl">
-												<img src={require('./../../images/cake1.jpg')} alt="" />
-											</div>
-											<h3>From The Blog</h3>
-											<p>Latest news and updates</p>
-										</div>
-									</div>
-								</div>
-								<div className="row">
-									{blogNews.map((item,index) =>(
-									
-										<div className="col-lg-4 col-md-6" key={index}>
-											<div className="blog-post blog-grid blog-rounded" >
-												<div className="dlab-post-media dlab-img-effect"> 
-													<Link to={'/blog-single-sidebar'}><img src={item.image} alt="" /></Link> 
-												</div>
-												<div className="dlab-info p-a25">
-													<div className="dlab-post-title">
-														<h4 className="post-title"><Link to={'/blog-single-sidebar'}>{item.title}</Link></h4>
-													</div>
-													<div className="dlab-post-meta">
-														<ul>
-															<li className="post-folder">
-																<i className="fa fa-folder-open-o"></i> 
-																<Link to={''}>Cake</Link>,  
-																<Link to={''}> Biscuits</Link> 
-															</li>
-														</ul>
-													</div>
-												</div>
-											</div>
-										</div>
-									))}
-									
-								</div>
-							</div>
 						</div>
 					</div>		
 				</div>

@@ -29,7 +29,7 @@ class Slider extends Component{
 								<h2 className="title">Occasion Cakes</h2>
 								<h4 className="sub-title">Taste luxury at affordable prices</h4>
 								<Link to={"/about-1"} className="btn btnhover">About Us</Link>
-								<Link to={''} className="btn white" data-toggle="modal" data-target="#exampleModal">Subscribe Now</Link>
+								<Link to={'/menu'} className="btn white" data-toggle="modal" data-target="#exampleModal">Special Offer</Link>
 							</div>	
 						</div>	
 					</Carousel.Item>

@@ -41,69 +41,34 @@ class Footer extends Component{
 								</div>
 							</div>
 							<div className="col-xl-3 col-lg-6 col-md-6 col-sm-6">
-								<div className="widget recent-posts-entry">
-									<h4 className="footer-title">Recent Post</h4>
-									<div className="widget-post-bx">
-										<div className="widget-post clearfix">
-											<div className="dlab-post-media radius-sm"> 
-												<img src= {require('./../../images/blog/recent-blog/pic1.jpg')} alt="" /> 
-											</div>
-											<div className="dlab-post-info">
-												<div className="dlab-post-header">
-													<h6 className="post-title"><Link to={'/blog-single'}>The Background Of Bakery Now</Link></h6>
-												</div>
-												<div className="dlab-post-meta">
-													<ul>
-														<li className="post-date"> <i className="la la-clock-o"></i><strong>March 25, 2020</strong> </li>
-													</ul>
-												</div>
-											</div>
-										</div>
-										<div className="widget-post clearfix">
-											<div className="dlab-post-media radius-sm"> 
-												<img src= {require('./../../images/blog/recent-blog/pic1.jpg')} alt="" /> 
-											</div>
-											<div className="dlab-post-info">
-												<div className="dlab-post-header">
-													<h6 className="post-title"><Link to={'blog-single'}>How Bakery Can Increase Your Profit</Link></h6>
-												</div>
-												<div className="dlab-post-meta">
-													<ul>
-														<li className="post-date"> <i className="la la-clock-o"></i><strong>March 25, 2020</strong> </li>
-													</ul>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div className="col-xl-3 col-lg-6 col-md-6 col-sm-6">
 								<div className="widget widget_services border-0">
 								   <h4 className="footer-title">Quick Links</h4>
 									<ul className="list-2">
 										<li><Link to={'/'}>Home</Link></li>
 										<li><Link to={'/about-1'}>About</Link></li>
-										<li><Link to={'/our-menu-1'}>Our Menu</Link></li>
+										<li><Link to={'/menu'}>Our Menu</Link></li>
 										<li><Link to={'/faq'}>FAQ</Link></li>
 										<li><Link to={'/blog-grid-2'}>Blog</Link></li>
 										<li><Link to={'/shop'}>Shop</Link></li>
 										<li><Link to={'/contact-1'}>Contact</Link></li>
-										<li><Link to={'/team'}>Team</Link></li>
-										<li><Link to={'/calendar'}>Calendar</Link></li>
 									</ul>
 								</div>
 							</div>
 							<div className="col-xl-3 col-lg-6 col-md-6 col-sm-6">
 								<div className="widget border-0">
-								   <h4 className="footer-title">Opening Hours</h4>
+								   <h4 className="footer-title">Working Hours</h4>
 									<ul className="work-hour-list">
 										<li>
 											<span className="day"><span>Monday to Friday</span></span> 
-											<span className="timing">10AM - 2AM</span>
+											<span className="timing">10AM - 12AM</span>
 										</li>
 										<li>
 											<span className="day"><span>Saturday & Sunday</span></span>
-											<span className="timing">2PM - 2AM</span>
+											<span className="timing">9AM - 12AM</span>
+										</li>
+										<li>
+											<span className="day"><span>Phone Order</span></span>
+											<span className="timing">24 Hours</span>
 										</li>
 									</ul>
 								</div>

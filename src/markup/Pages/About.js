@@ -47,14 +47,6 @@ class About extends Component{
 					<div className="container">
 						<div className="dlab-bnr-inr-entry">
 							<h1 className="text-white">About Us</h1>
-							
-							<div className="breadcrumb-row">
-								<ul className="list-inline">
-									<li><Link to={'/'}><i className="fa fa-home"></i></Link></li>
-									<li>About Us</li>
-								</ul>
-							</div>
-							
 						</div>
 					</div>
 				</div>
@@ -70,8 +62,23 @@ class About extends Component{
 											<img src={require('./../../images/cake1.jpg')} alt="" />
 										</div>
 										<h3>About Mass Cake Cafe</h3>
-										<p>Mass Cake Cafe prides itself for the quality of our products and the personalized customer service we provide. We use only the finest ingredients and make everything from scratch in small batches, ensuring that each item is fresh and delicious. Our bakery is the perfect place to enjoy high-quality baked goods and experience exceptional customer service.</p>
-									</div>
+										<p className="text-justify">Mass Cake Cafe is a delightful and charming cake shop located in the bustling area of Navalur, Chennai. From cakes and baked goods to savory biryanis, our shop offers a wide variety of delicious treats and meals that cater to all tastes and preferences.</p>
+
+										<p className="text-justify">At Mass Cake Cafe, we are passionate about using only the finest ingredients in all of our creations. Our cakes are made with real butter, fresh cream, and high-quality chocolates and fruits to ensure a rich and satisfying taste in every bite. From classic flavors like chocolate and vanilla to more exotic options like red velvet and mango, our cakes are always made with care and attention to detail.</p>
+
+										<p className="text-justify">In addition to our delicious cakes, we also offer a variety of other treats. Our brownies are rich and fudgy, with a perfect balance of sweetness and decadence. They are a perfect accompaniment to a cup of coffee or tea, or just as a satisfying snack in their own right. Our sandwiches are made with fresh ingredients and served on your choice of bread, making them a perfect snack or light meal. From classic options like egg and cheese to more gourmet options like chicken pesto or roast beef, there's a sandwich to suit every taste. And our milkshakes are thick and creamy, with flavors like chocolate, strawberry, and vanilla that are sure to please.</p>
+
+										<p className="text-justify">But that's not all – we've recently expanded our offerings to include a restaurant section in our shop, where we now make all kinds of biryanis. From traditional chicken and mutton biryanis to more vegetarian-friendly options like paneer and vegetable biryanis, our biryanis are made with the same dedication to quality and taste that we bring to all of our products.</p>
+
+										<p className="text-justify">At Mass Cake Cafe, we are committed to providing our customers with a welcoming and enjoyable experience. Whether you're stopping by for a quick treat or settling in for a leisurely meal, we strive to make every visit a memorable one. Our cozy atmosphere and friendly staff make our shop the perfect place to catch up with friends or simply relax and enjoy some delicious food.</p>
+
+										<p className="text-justify">We also offer a range of customizable cakes for special occasions like birthdays, weddings, and anniversaries. Our skilled cake artists are always up for a challenge and can create a stunning cake that is tailored to your exact specifications. Whether you're looking for a classic two-tiered cake or a more elaborate design, we have the expertise and creativity to make it happen.</p>
+
+										<p className="text-justify">At Mass Cake Cafe, we believe that quality should never be compromised, and that is reflected in every aspect of our shop. We take pride in using only the finest ingredients, and we are always experimenting with new and exciting flavors and combinations to keep things fresh and interesting. We are also committed to providing exceptional customer service, and we strive to make every customer feel welcome and valued.</p>
+
+										<p className="text-justify">In addition to our regular offerings, we also have seasonal specials that reflect the flavors and ingredients of the current season. From pumpkin spice cakes in the fall to fresh fruit tarts in the summer, we are always coming up with new and exciting treats to showcase the best of what each season has to offer.</p>
+
+										<p className="text-justify">Whether you're in the mood for something sweet or savory, Mass Cake Cafe has something for everyone. We invite you to stop by and sample our delicious offerings, and to experience for yourself the warmth and charm of our shop. We are proud to be a part of the vibrant community of Navalur, and we look forward to continuing to serve our customers for many years to come.</p>									</div>
 								</div>
 							</div>
 							<div className="row sp30">
@@ -82,112 +89,10 @@ class About extends Component{
 								</div>
 								<div className="col-lg-6 col-md-6 m-b30">
 									<div className="about-thumb">
-										<img src={require('./../../images/about/pic6.jpg')} alt="" /> 
+										<img src={require('./../../images/about/pic6.jpg')} alt="" />
 									</div>
 								</div>
 							</div>
-						</div>
-					</div>
-					
-					
-					<div className="section-full content-inner bg-line-top bg-line-bottom" style={{backgroundImage: "url(" + img4 + " )"}}>
-						<div className="container">
-							<div className="row">
-								<div className="col-lg-12">
-									<div className="section-head text-center text-white">
-										<h3 className="text-white">We Are Professional at Our Skills</h3>
-										<p>More than 2000+ customers trusted us</p>
-									</div>
-								</div>
-							</div>
-							<div className="row max-w900 m-auto">
-								<div className="col-lg-3 col-md-6 col-sm-6 col-6 m-b30">
-									<div className="counter-style-1 text-white text-center">
-										<div className="counter-num">
-											<span className="counter"><CountUp end={53} /></span>
-											<small>+</small>
-										</div>
-										<span className="counter-text">Years of Experience</span>
-									</div>
-								</div>
-								<div className="col-lg-3 col-md-6 col-sm-6 col-6 m-b30">
-									<div className="counter-style-1 text-white text-center">
-										<div className="counter-num">
-											<span className="counter"><CountUp end={102} /></span>
-										</div>
-										<span className="counter-text">Awards Wins</span>
-									</div>
-								</div>
-								<div className="col-lg-3 col-md-6 col-sm-6 col-6 m-b30">
-									<div className="counter-style-1 text-white text-center">
-										<div className="counter-num">
-											<span className="counter"><CountUp end={36} /></span>
-											<small>k</small>
-										</div>
-										<span className="counter-text">Happy Clients</span>
-									</div>
-								</div>
-								<div className="col-lg-3 col-md-6 col-sm-6 col-6 m-b30">
-									<div className="counter-style-1 text-white text-center">
-										<div className="counter-num">
-											<span className="counter"><CountUp end={99} /></span>
-											
-										</div>
-										<span className="counter-text">Perfect Products</span>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					
-					
-					
-					
-					<div className="section-full content-inner-1 bg-white"  style={{backgroundImage:"url(" + img2 + ")" }}>
-						<div className="container">
-							<div className="row">
-								<div className="col-lg-12">
-									<div className="section-head text-center">
-										<h3>Our Expert Chefs</h3>
-										<p>Meet our professional team meambers</p>
-									</div>
-								</div>
-							</div>
-							<div className="row">
-								{teamInfo.map((item,index) =>(
-								
-								<div className="col-lg-3 col-md-6 col-sm-6 m-b30">
-									<div className="dlab-team1" key={index}>
-										<div className="thumb" >
-											<img src={item.image} alt="" />
-											<ul className="social-link">
-												<li><Link to = {''}><i className="fa fa-facebook"></i></Link></li>
-												<li><Link to = {''}><i className="fa fa-twitter"></i></Link></li>
-											</ul>
-										</div>
-										<div className="team-info text-center">
-											<h4 className="name">{item.name}</h4>
-											<p className="position">{item.post}</p>
-										</div>
-									</div>
-								</div>
-								))}
-								
-							</div>
-						</div>
-							
-						<div className="p-tb50">
-							<div className="container">	
-								<div class="row">
-									<div class="col-lg-12">
-										<div class="section-head text-center">
-											<h3>Our PARTNERS</h3>
-											<p>famous companies trusted us, why you are not</p>
-										</div>
-									</div>
-								</div>
-							</div>
-							<OurPartners />
 						</div>
 					</div>
 					

@@ -3,6 +3,7 @@ import {TabContent, TabPane,} from 'reactstrap';
 import classnames from 'classnames';
 import {useLocation, Link} from 'react-router-dom';
 import items from "./resources/cakes";
+import img1 from "../../images/banner/bnr1.jpg";
 
 const Popupss = (props) => {
     // const {search} = useLocation();

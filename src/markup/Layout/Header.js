@@ -54,75 +54,17 @@ class Header extends Component{
 									<Link to={'/'} className="dez-page"><img src={require("./../../images/logo.png")} alt="" /></Link>
 								</div>
 								<ul className="nav navbar-nav nav1">
-									<li><Link to={''}>Pages<i className="fa fa-chevron-down"></i></Link>
-										<ul className="sub-menu">
-											<li><Link to={'/about-1'}>About Us</Link></li>
-											<li><Link to={'/our-services'}>Our Services</Link></li>
-											<li><Link to={'./faq'}>FAQs</Link></li>
-											<li><Link to={'./booking'}>Booking</Link></li>
-											<li><Link to={'./error-404'}>404 Error</Link></li>
-											<li><Link to={'/calendar'}>Calendar</Link></li>
-											<li><Link to={'/team'}>Team</Link></li>
-										</ul>
-									</li>
+									<li><Link to={'/'}>Home</Link></li>
 									<li><Link to={'/menu'}>Menu</Link></li>
 								</ul>
 								<ul className="nav navbar-nav nav2">
-									<li className="has-mega-menu"><Link to={''}>Blog<i className="fa fa-chevron-down"></i></Link>
-										<ul className="mega-menu">
-											<li> <Link to={''}>Blog Grid</Link>
-												<ul>
-													<li><Link to = {'/blog-grid-2'}>Grid 2</Link></li>
-													<li><Link to = {'/blog-grid-2-sidebar'}>Grid 2 sidebar</Link></li>
-													<li><Link to = {'/blog-grid-2-sidebar-left'}>Grid 2 sidebar left</Link></li>
-													<li><Link to = {'/blog-grid-3'}>Grid 3</Link></li>
-												</ul>
-											</li>
-											<li> <Link to={''}>Blog Half Image</Link>
-												<ul>
-													<li><Link to = {'/blog-half-img'}>Half image</Link></li>
-													<li><Link to = {'/blog-half-img-sidebar'}>Half image sidebar</Link></li>
-													<li><Link to = {'/blog-half-img-left-sidebar'}>Half image sidebar left</Link></li>
-												</ul>
-											</li>
-											<li> <Link to={''}>Blog Large Image</Link>
-												<ul>
-													<li><Link to ={'/blog-large-img'}>Large image</Link></li>
-													<li><Link to ={'/blog-large-img-sidebar'}>Large image sidebar</Link></li>
-													<li><Link to ={'/blog-large-img-left-sidebar'}>Large image sidebar left</Link></li>
-												</ul>
-											</li>
-											<li> <Link to={''}>Blog Details</Link>
-												<ul>
-													<li><Link to ={'/blog-single'}>Single</Link></li>
-													<li><Link to ={'/blog-single-sidebar'}>Single sidebar</Link></li>
-													<li><Link to ={'/blog-single-left-sidebar'}>Single sidebar left</Link></li>
-												</ul>
-											</li>
-										</ul>
-									</li>
-									<li>
-										<Link to={''}>Shop <i className="fa fa-chevron-down"></i></Link>
-										<ul className="sub-menu">
-											<li><Link to ={'/shop'}>Shop</Link></li>
-											<li><Link to ={'/shop-sidebar'}>Shop Sidebar</Link></li>
-											<li><Link to ={'/shop-product-details'}>Product Details</Link></li>
-											<li><Link to ={'/shop-cart'}>Cart</Link></li>
-											<li><Link to ={'/shop-wishlist'}>Wishlist</Link></li>
-											<li><Link to ={'/shop-checkout'}>Checkout</Link></li>
-											<li><Link to ={'/shop-login'}>Login</Link></li>
-											<li><Link to ={'/shop-register'}>Register</Link></li>
-										</ul>
-									</li>
-									<li>
-										<Link to={'/contact'}>Contact Us</Link>
-									</li>
+									<li><Link to={'/about-1'}>About Us</Link></li>
+									<li><Link to={'/contact'}>Contact Us</Link></li>
 								</ul>		
 							</div>
 						</div>
 					</div>
 				</div>
-       
 			</header>	
 		
 		)

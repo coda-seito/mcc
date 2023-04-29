@@ -47,10 +47,8 @@ class Footer extends Component{
 										<li><Link to={'/'}>Home</Link></li>
 										<li><Link to={'/about-1'}>About</Link></li>
 										<li><Link to={'/menu'}>Our Menu</Link></li>
-										<li><Link to={'/faq'}>FAQ</Link></li>
-										<li><Link to={'/blog-grid-2'}>Blog</Link></li>
 										<li><Link to={'/shop'}>Shop</Link></li>
-										<li><Link to={'/contact-1'}>Contact</Link></li>
+										<li><Link to={'/contact'}>Contact</Link></li>
 									</ul>
 								</div>
 							</div>

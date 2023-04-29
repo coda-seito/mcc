@@ -77,7 +77,7 @@ class Contact extends Component{
 								</div>
 								<div className="col-xl-6 col-lg-6 col-md-6 m-md-b30 m-lg-b30">
 									<GoogleMaps
-										apiKey={"AIzaSyAmdq9heu0h44ebTOp3HMfcwYFVeR6X4GQ"}
+										apiKey={"AIzaSyBRG9LfpM5P0pSldxjlt3vfTBbFEkj1n6E"}
 										style={{ height: "500px", width: "100%" }}
 										zoom={19}
 										center={{ lat: 12.848503075277147, lng: 80.22634045890878 }}

@@ -9,8 +9,8 @@ var bgimg1 = require('./../../images/banner/bnr1.jpg');
 var bgimg2 = require('./../../images/background/bg5.jpg');
 
 class Contact extends Component{
-	
 	render(){
+		const GOOG_ENV = process.env.REACT_APP_GOOG || "any-default-local-build_env";
 		return(
 			<>
 			<Header />
@@ -18,15 +18,15 @@ class Contact extends Component{
 				<div className="dlab-bnr-inr overlay-black-middle" style={{backgroundImage: "url(" + bgimg1 + ")"}}>
 					<div className="container">
 						<div className="dlab-bnr-inr-entry">
-							<h1 className="text-white">Opening hours</h1>
+							<h1 className="text-white">Working hours</h1>
 							<ul className="col-xl-6 mx-auto work-hour-list">
 								<li>
 									<span className="day"><span>Monday to Friday</span></span>
-									<span className="timing">10AM - 2AM</span>
+									<span className="timing">9AM - 12AM</span>
 								</li>
 								<li>
 									<span className="day"><span>Saturday & Sunday</span></span>
-									<span className="timing">2PM - 2AM</span>
+									<span className="timing">12PM - 12AM</span>
 								</li>
 							</ul>
 						</div>
@@ -77,7 +77,7 @@ class Contact extends Component{
 								</div>
 								<div className="col-xl-6 col-lg-6 col-md-6 m-md-b30 m-lg-b30">
 									<GoogleMaps
-										apiKey={"AIzaSyBRG9LfpM5P0pSldxjlt3vfTBbFEkj1n6E"}
+										apiKey={GOOG_ENV}
 										style={{ height: "500px", width: "100%" }}
 										zoom={19}
 										center={{ lat: 12.848503075277147, lng: 80.22634045890878 }}

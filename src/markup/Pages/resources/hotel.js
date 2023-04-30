@@ -1,11 +1,11 @@
 const items = {
     1: {
-        name: "STARTERS / CURRY (VEG)",
+        name: "Starters / Curry (Veg)",
         img: "product/images/menu/pic1-1.jpg",
         idx: [
-            "Gobi,65",
-            "Mushroom,65",
-            "Paneer,65",
+            "Gobi 65,140",
+            "Mushroom 65,140",
+            "Paneer 65,140",
             "Chilli paneer,140",
             "Pepper paneer,140",
             "Kadai paneer,140",
@@ -15,11 +15,12 @@ const items = {
             "Paneer machurian,140",
             "Mushroom masala,150",
             "Gobi masala,150",
-            "Aloo gobi masala,150"
+            "Aloo gobi masala,150",
+            "Paneer butter masala,180"
         ]
     },
     2: {
-        name: "STARTERS / CURRY (NON VEG)",
+        name: "Starters / Curry (Non Veg)",
         img: "product/images/menu/pic2-1.jpg",
         idx: [
             "Chicken 65,150",
@@ -41,33 +42,71 @@ const items = {
         ]
     },
     3: {
-        name: "THOKKU BIRYANI",
+        name: "Thokku Biryani",
         img: "product/images/menu/biryani.jpg",
         idx: [
             "Kushka,80",
-            "Egg Biryani,90",
+            "Fried Egg Biryani,90",
             "Chicken Thokku Biryani,120",
             "Special Chicken Biryani,150",
+            "Mughlai Chicken Biryani,150"
         ]
     },
     4: {
-        name: "CHINESE FRIED RICE / NOODLES",
+        name: "Veg Biryani",
+        img: "product/images/menu/veg-briyani.jpg",
+        idx: [
+            "Veg biryani,100",
+            "Paneeer biryani,120",
+            "Mushroom biryani,120",
+            "Gobi biryani,120",
+            "Brinji rice,60"
+        ]
+    },
+    5: {
+        name: "Hyderabadi Dum Biryani",
+        img: "product/images/menu/hyd-biryani.jpg",
+        idx: [
+            "Chicken Dum Biryani,150",
+            "Prawn Dum Biyani,180",
+            "Fish Dum Biryani,180",
+            "Kadai Biryani,150"
+        ]
+    },
+    6: {
+        name: "Chinese Fried Rice / Noodles",
         img: "product/images/menu/noodles.jpg",
         idx: [
-            "Chicken,120",
-            "Egg,100",
             "Veg,90",
+            "Egg,100",
+            "Chicken,120",
             "Mushroom,120",
             "Paneer,120",
             "Gobi,120",
             "Veg Mixed,150",
             "Non Veg Mixed,180",
             "Special Chicken Rice,150",
-            "Scezwan Extra,10 "
+            "Crispy Fried Noodles,150",
+            "Sechzwan Delux Chicken,180",
+            "Chicken Chopsy,180",
+            "American Chopsy,150",
+            "Scezwan Extra,20"
         ]
     },
-    5: {
-        name: "PAROTTA",
+    7: {
+        name: "Indian Rice",
+        img: "product/images/menu/ghee.jpg",
+        idx: [
+            "Ghee Rice,99",
+            "Jeera Rice,120",
+            "White Rice With Chicken Thokku,150",
+            "White Rice With Fish Gravy,180",
+            "White Rice With Prawn Gravy,180",
+            "White Rice With Rasam,80"
+        ]
+    },
+    8: {
+        name: "Parotta / Idiappam",
         img: "product/images/menu/parotta.jpg",
         idx: [
             "Plain Parotta,20",
@@ -100,36 +139,76 @@ const items = {
             "Idiappam Gobi Kothu,120"
         ]
     },
-    6: {
-        name: "DOSA",
+    9: {
+        name: "Dosa",
         img: "product/images/menu/dosa.jpg",
         idx: [
-            "Plain Dosa,30",
-            "Ghee Dosa,50",
-            "Onion Dosa,40",
-            "Podi Dosa,50",
-            "Gobi Masala Dosa,120",
-            "Mushroom Masala Dosa,120",
             "Kal Dosa,20",
             "Egg Kal Dosa,25",
-            "Onion Kal Dosa,25"
+            "Onion Kal Dosa,25",
+            "Plain Dosa,30",
+            "Onion Dosa,40",
+            "Egg dosa,40",
+            "Ghee Roast,50",
+            "Podi Dosa,50",
+            "Rava dosa,80",
+            "Ghee podi dosa,80",
+            "Gobi Masala Dosa,120",
+            "Mushroom Masala Dosa,120",
+            "Paneer masala dosa,120",
+            "Chicken dosa,120",
+            "Prawn dosa,140",
         ]
     },
-    7: {
-        name: "THICK SHAKES",
+    10: {
+        name: "Tandoori Naan",
+        img: "product/images/menu/butter-naan.jpg",
+        idx: [
+            "Naan,30",
+            "Rotti,30",
+            "Pulka,30",
+            "Lacha Paratha,40",
+            "Wheat Paratha,40",
+            "Aloo Paratha,40",
+            "Gobi Paratha,40",
+            "Garlick Naan,50",
+            "Methi Paratha,50",
+            "Butter Naan,60",
+            "Pisaberri Naan,110",
+            "Amitsari Kulcha,120",
+            "Veg Stuffed Kulcha,120",
+            "Kashmiri Paratha,140",
+            "Kasmiri Naan,140"
+        ]
+    },
+    11: {
+        name: "Tandoori Chicken",
+        img: "product/images/menu/tandoori-chicken.jpg",
+        idx: [
+            "Mini Tandoori Chicken,99",
+            "Chicken Tikka,140",
+            "Resmy Kebab,150",
+            "Hariali Kebab,150",
+            "Malai Kebab,160",
+            "Half Tandoori Chicken,220",
+            "Full Tandoori Chicken,400"
+        ]
+    },
+    12: {
+        name: "Thick Shakes",
         img: "product/images/menu/simple-shake.jpg",
         idx: [
-            "Vanilla,149",
-            "Strawberry,149",
-            "Pineapple,149",
-            "Chocolate,149",
-            "Mango,149",
-            "Black Currant,149",
-            "Butterscotch,149"
+            "Vanilla,169",
+            "Strawberry,169",
+            "Pineapple,169",
+            "Chocolate,169",
+            "Mango,169",
+            "Black Currant,169",
+            "Butterscotch,169"
         ]
     },
-    8: {
-        name: "ELITE FLAVOUR THICK SHAKES",
+    13: {
+        name: "Elite Flavour Thick Shakes",
         img: "product/images/menu/thick-shake.jpg",
         idx: [
             "Irish Coffe,149",
@@ -140,15 +219,20 @@ const items = {
             "Frappe,169"
         ]
     },
-    9: {
-        name: "DESERT",
+    14: {
+        name: "Desert",
         img: "product/images/menu/brownie.jpg",
         idx: [
             "Brownie With Ice Cream,90",
             "Vanilla Ice Cream,60",
             "Ice Cream Topped With Chocolate,70",
-            "Ice Cream Topped With Any Flavours,70",
-            "Titanic Ice Cream,99"
+            "Ice Cream Topped Strawberry Sauce,70",
+            "Ice Cream Topped Mango,70",
+            "Ice Cream Topped Pineapple Sauce,70",
+            "Ice Cream Topped Black Currant Sauce,70",
+            "Ice Cream Topped Caramel,70",
+            "Ice Cream Topped Butterscotch Nuts,90",
+            "Titanic Boat Ice Cream,99"
         ]
     }
 }

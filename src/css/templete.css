@@ -424,6 +424,12 @@
     align-items: center;
     padding: 20px 0;
 }
+
+.service-box2 i{
+    display: flex;
+    font-size: 50px;
+}
+
 .service-box2 .icon-bx{
 	margin-right: 30px;
 }

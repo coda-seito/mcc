@@ -62,7 +62,7 @@ class Index1 extends Component{
 												<h2 className="dlab-tilte text-white">Savouries</h2>
 												<p>Puffs & Sandwiches</p>
 												<div className="dlab-separator style1 bg-primary"></div>
-												<Link to={('/shop-product-details')} className="btn btnhover">More details <i className="fa fa-angle-double-right m-l5"></i></Link>
+												<Link to={('/menu?tab=biryani')} className="btn btnhover">More details <i className="fa fa-angle-double-right m-l5"></i></Link>
 											</div>
 										</div>
 									</div>
@@ -72,7 +72,7 @@ class Index1 extends Component{
 												<h2 className="dlab-tilte text-white">Beverages</h2>
 												<p>Milk shakes & Bubble tea</p>
 												<div className="dlab-separator style1 bg-primary"></div>
-												<Link to={('/shop-product-details')} className="btn btnhover">More details <i className="fa fa-angle-double-right m-l5"></i></Link>
+												<Link to={('/menu?tab=shakes')} className="btn btnhover">More details <i className="fa fa-angle-double-right m-l5"></i></Link>
 											</div>
 										</div>
 									</div>
@@ -82,7 +82,7 @@ class Index1 extends Component{
 												<h2 className="dlab-tilte text-white">Sweet Bites</h2>
 												<p>Brownies & Swiss Rolls</p>
 												<div className="dlab-separator style1 bg-primary"></div>
-												<Link to={('/shop-product-details')} className="btn btnhover">More details <i className="fa fa-angle-double-right m-l5"></i></Link>
+												<Link to={('/menu?tab=dessert')} className="btn btnhover">More details <i className="fa fa-angle-double-right m-l5"></i></Link>
 											</div>
 										</div>
 									</div>
@@ -120,64 +120,67 @@ class Index1 extends Component{
 										<div className="row p-l30">
 											<div className="col-lg-6 col-sm-6 m-b30">
 												<div className="icon-bx-wraper text-white service-box2">
-													<div className="icon-content">
+													<div className="icon-bx">
 														<i className="flaticon-cake"></i>
-														<h5 className="dlab-tilte">Pancakes</h5>
+													</div>
+													<div className="icon-content">
+														<h5 className="dlab-tilte">Cakes</h5>
+														<p>Cakes for all occasions</p>
 													</div>
 												</div>
 											</div>
 											<div className="col-lg-6 col-sm-6 m-b30">
 												<div className="icon-bx-wraper text-white service-box2">
 													<div className="icon-bx">
-														<img src={require('./../../images/icons/service-icon/icon3.png')} alt="" />
+														<i className="flaticon-milkshake"></i>
 													</div>
 													<div className="icon-content">
-														<h5 className="dlab-tilte">Muffin</h5>
-														<p>Lorem Ipsum is dummy</p>
+														<h5 className="dlab-tilte">Shakes</h5>
+														<p>Thick flavorful shakes</p>
 													</div>
 												</div>
 											</div>
 											<div className="col-lg-6 col-sm-6 m-b30">
 												<div className="icon-bx-wraper text-white service-box2">
 													<div className="icon-bx">
-														<img src={require('./../../images/icons/service-icon/icon4.png')} alt="" />
+														<i className="flaticon-brownie"></i>
 													</div>
 													<div className="icon-content">
-														<h5 className="dlab-tilte">Pumpkin cakes</h5>
-														<p>Lorem Ipsum is dummy</p>
+														<h5 className="dlab-tilte">Desserts</h5>
+														<p>Brownies and ice-cream</p>
 													</div>
 												</div>
 											</div>
 											<div className="col-lg-6 col-sm-6 m-b30">
 												<div className="icon-bx-wraper text-white service-box2">
 													<div className="icon-bx">
-														<img src={require('./../../images/icons/service-icon/icon5.png')} alt="" />
+														<i className="flaticon-biryani"></i>
 													</div>
 													<div className="icon-content">
-														<h5 className="dlab-tilte">Pumpkin Cupcakes</h5>
-														<p>Lorem Ipsum is dummy</p>
+														<h5 className="dlab-tilte">Biryani</h5>
+														<p>Thokku, Hyderabadi and VEG</p>
 													</div>
 												</div>
 											</div>
 											<div className="col-lg-6 col-sm-6 m-b30">
 												<div className="icon-bx-wraper text-white service-box2">
 													<div className="icon-bx">
-														<img src={require('./../../images/icons/service-icon/icon5.png')} alt="" />
+														<i className="flaticon-curry"></i>
 													</div>
 													<div className="icon-content">
-														<h5 className="dlab-tilte">Cake Services</h5>
-														<p>Lorem Ipsum is dummy</p>
+														<h5 className="dlab-tilte">Curry</h5>
+														<p>VEG and NON-VEG curries</p>
 													</div>
 												</div>
 											</div>
 											<div className="col-lg-6 col-sm-6 m-b30">
 												<div className="icon-bx-wraper text-white service-box2">
-													<div className="icon-bx"> 
-														<img src={require('./../../images/icons/service-icon/icon1.png')} alt="" />
+													<div className="icon-bx">
+														<i className="flaticon-tortilla"></i>
 													</div>
 													<div className="icon-content">
-														<h5 className="dlab-tilte">Birthday Cake</h5>
-														<p>Lorem Ipsum is dummy</p>
+														<h5 className="dlab-tilte">Tiffin</h5>
+														<p>Parrota and Iddiyappam</p>
 													</div>
 												</div>
 											</div>
@@ -194,8 +197,8 @@ class Index1 extends Component{
 											<div className="icon-bx icon-bx-xl">
 												<img src={require('./../../images/cake1.jpg')} alt="" />
 											</div>
-											<h3>We Are Professional at Our Skills</h3>
-											<p>More than 2000+ customers trusted us</p>
+											<h3><strike>Buy 1 kg, Get ½ Kg Free</strike></h3>
+											<p>Other shops trick you with "Buy 1 kg, Get ½ Kg Free" offer by raising the prices. We believe in honesty and sell best quality products at a very reasonable price.</p>
 										</div>
 									</div>
 								</div>
@@ -209,13 +212,14 @@ class Index1 extends Component{
 										<div className="about-bx">
 											<div className="section-head text-center text-white">
 												<h4 className="text-white">Limited Time Offer</h4>
-												<p>Wedding Cake Sale !</p>
+												<p>Birthday Cake Sale!</p>
 												<div className="icon-bx">
-													<img src={require('./../../images/icons/service-icon/icon2.png')} alt="" />
+													<img src={require('./../../images/icons/service-icon/icon1.png')} alt="" />
 												</div>
 											</div>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
-											<Link to={'about-1'} className="btn-secondry white btnhover btn-md"><i className="fa fa-cart"></i>GET NOW</Link>
+											<p>10% discount on all cakes with a "Happy Birthday" writing on it.</p>
+											<p>Rs 100 off with 100 points on loyalty rewards</p>
+											<Link to="tel:+917845963618" className="btn-secondry white btnhover btn-md"><i className="fa fa-cart"></i>GET NOW</Link>
 										</div>
 									</div>
 								</div>

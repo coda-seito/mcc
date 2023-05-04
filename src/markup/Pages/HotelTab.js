@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {TabContent, TabPane,} from 'reactstrap';
 import classnames from 'classnames';
-import {useLocation, Link} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import items from "./resources/hotel";
 import cakesItems from "./resources/cakes";
 import queryString from "query-string"
@@ -22,7 +22,7 @@ const Popupss = (props) => {
             initialState = tab
             break;
     }
-    const [activeTab, setActiveTab] = useState('cakes');
+    const [activeTab, setActiveTab] = useState(initialState);
 
     const toggle = tab => {
         if (activeTab !== tab) setActiveTab(tab);

@@ -2,7 +2,7 @@ const items = {
     curry: [{
         index: 1,
         name: "Starters / Curry (Veg)",
-        img: "product/images/menu/pic1-1.jpg",
+        img: "product/images/menu/pic1-1.webp",
         idx: [
             "Gobi 65,140",
             "Mushroom 65,140",
@@ -22,7 +22,7 @@ const items = {
     }, {
         index: 2,
         name: "Starters / Curry (Non Veg)",
-        img: "product/images/menu/pic2-1.jpg",
+        img: "product/images/menu/pic2-1.webp",
         idx: [
             "Chicken 65,150",
             "Chilli chicken,150",
@@ -46,7 +46,7 @@ const items = {
         {
             index: 1,
             name: "Thokku Biryani",
-            img: "product/images/menu/biryani.jpg",
+            img: "product/images/menu/biryani.webp",
             idx: [
                 "Kushka,80",
                 "Fried Egg Biryani,90",
@@ -58,7 +58,7 @@ const items = {
         {
             index: 2,
             name: "Veg Biryani",
-            img: "product/images/menu/veg-briyani.jpg",
+            img: "product/images/menu/veg-briyani.webp",
             idx: [
                 "Veg biryani,100",
                 "Paneeer biryani,120",
@@ -70,7 +70,7 @@ const items = {
         {
             index: 3,
             name: "Hyderabadi Dum Biryani",
-            img: "product/images/menu/hyd-biryani.jpg",
+            img: "product/images/menu/hyd-biryani.webp",
             idx: [
                 "Chicken Dum Biryani,150",
                 "Prawn Dum Biyani,180",
@@ -81,7 +81,7 @@ const items = {
         {
             index: 4,
             name: "Indian Rice",
-            img: "product/images/menu/ghee.jpg",
+            img: "product/images/menu/ghee.webp",
             idx: [
                 "Ghee Rice,99",
                 "Jeera Rice,120",
@@ -94,7 +94,7 @@ const items = {
     chinese: [{
         index: 1,
         name: "Chinese Fried Rice / Noodles",
-        img: "product/images/menu/noodles.jpg",
+        img: "product/images/menu/noodles.webp",
         idx: [
             "Veg,90",
             "Egg,100",
@@ -115,7 +115,7 @@ const items = {
     tiffin: [{
         index: 1,
         name: "Parotta / Idiappam",
-        img: "product/images/menu/parotta.jpg",
+        img: "product/images/menu/parotta.webp",
         idx: [
             "Plain Parotta,20",
             "Bun Parotta,25",
@@ -149,7 +149,7 @@ const items = {
     }, {
         index: 2,
         name: "Dosa",
-        img: "product/images/menu/dosa.jpg",
+        img: "product/images/menu/dosa.webp",
         idx: [
             "Kal Dosa,20",
             "Egg Kal Dosa,25",
@@ -171,7 +171,7 @@ const items = {
     tandoori: [{
         index: 1,
         name: "Tandoori Naan",
-        img: "product/images/menu/butter-naan.jpg",
+        img: "product/images/menu/butter-naan.webp",
         idx: [
             "Naan,30",
             "Rotti,30",
@@ -192,7 +192,7 @@ const items = {
     }, {
         index: 2,
         name: "Tandoori Chicken",
-        img: "product/images/menu/tandoori-chicken.jpg",
+        img: "product/images/menu/tandoori-chicken.webp",
         idx: [
             "Mini Tandoori Chicken,99",
             "Chicken Tikka,140",
@@ -206,7 +206,7 @@ const items = {
     shakes: [{
         index: 1,
         name: "Thick Shakes",
-        img: "product/images/menu/simple-shake.jpg",
+        img: "product/images/menu/simple-shake.webp",
         idx: [
             "Vanilla,169",
             "Strawberry,169",
@@ -219,7 +219,7 @@ const items = {
     }, {
         index: 2,
         name: "Elite Flavour Thick Shakes",
-        img: "product/images/menu/thick-shake.jpg",
+        img: "product/images/menu/thick-shake.webp",
         idx: [
             "Irish Coffe,149",
             "Mocha,149",
@@ -232,7 +232,7 @@ const items = {
     dessert: [{
         index: 1,
         name: "Dessert",
-        img: "product/images/menu/brownie.jpg",
+        img: "product/images/menu/brownie.webp",
         idx: [
             "Brownie With Ice Cream,90",
             "Vanilla Ice Cream,60",

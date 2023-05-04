@@ -2048,6 +2048,7 @@ ol.comment-list li.comment .reply a {
 }
 .pizza-items{
 	display:flex;
+    justify-content: center;
 	flex-wrap:wrap;
 	border: 0;
     padding-top: 20px;

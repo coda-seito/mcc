@@ -1,6 +1,6 @@
 
-const items = {
-    "cakes": [
+const cakesItems = {
+    cakes: [
         {
             "name": "Vanilla",
             "half-kilo-price": 250,
@@ -136,4 +136,4 @@ const items = {
     ]
 }
 
-export default items;
+export default cakesItems;

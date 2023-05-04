@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "flaticon_mass_cake_cafe";
+    src: url("./flaticon_mass_cake_cafe.ttf?b3562c3a4bf09fb7ed30e87d0d15c46f") format("truetype"),
+url("./flaticon_mass_cake_cafe.woff?b3562c3a4bf09fb7ed30e87d0d15c46f") format("woff"),
+url("./flaticon_mass_cake_cafe.woff2?b3562c3a4bf09fb7ed30e87d0d15c46f") format("woff2"),
+url("./flaticon_mass_cake_cafe.eot?b3562c3a4bf09fb7ed30e87d0d15c46f#iefix") format("embedded-opentype"),
+url("./flaticon_mass_cake_cafe.svg?b3562c3a4bf09fb7ed30e87d0d15c46f#flaticon_mass_cake_cafe") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_mass_cake_cafe !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-tortilla:before {
+    content: "\f101";
+}
+.flaticon-roti-canai:before {
+    content: "\f102";
+}
+.flaticon-biryani:before {
+    content: "\f103";
+}
+.flaticon-ladoo:before {
+    content: "\f104";
+}
+.flaticon-biryani-1:before {
+    content: "\f105";
+}
+.flaticon-curry:before {
+    content: "\f106";
+}
+.flaticon-curry-1:before {
+    content: "\f107";
+}
+.flaticon-curry-2:before {
+    content: "\f108";
+}
+.flaticon-noodles:before {
+    content: "\f109";
+}
+.flaticon-turkey:before {
+    content: "\f10a";
+}
+.flaticon-milkshake:before {
+    content: "\f10b";
+}
+.flaticon-ice-cream:before {
+    content: "\f10c";
+}
+.flaticon-french-fries:before {
+    content: "\f10d";
+}
+.flaticon-burger:before {
+    content: "\f10e";
+}
+.flaticon-cola:before {
+    content: "\f10f";
+}
+.flaticon-sandwich:before {
+    content: "\f110";
+}
+.flaticon-cookies:before {
+    content: "\f111";
+}
+.flaticon-brownie:before {
+    content: "\f112";
+}
+.flaticon-cake:before {
+    content: "\f113";
+}

@@ -1,5 +1,6 @@
 const items = {
-    1: {
+    curry: [{
+        index: 1,
         name: "Starters / Curry (Veg)",
         img: "product/images/menu/pic1-1.jpg",
         idx: [
@@ -18,8 +19,8 @@ const items = {
             "Aloo gobi masala,150",
             "Paneer butter masala,180"
         ]
-    },
-    2: {
+    }, {
+        index: 2,
         name: "Starters / Curry (Non Veg)",
         img: "product/images/menu/pic2-1.jpg",
         idx: [
@@ -40,40 +41,58 @@ const items = {
             "Mughalai chicken,180",
             "Chicken topioza,150"
         ]
-    },
-    3: {
-        name: "Thokku Biryani",
-        img: "product/images/menu/biryani.jpg",
-        idx: [
-            "Kushka,80",
-            "Fried Egg Biryani,90",
-            "Chicken Thokku Biryani,120",
-            "Special Chicken Biryani,150",
-            "Mughlai Chicken Biryani,150"
-        ]
-    },
-    4: {
-        name: "Veg Biryani",
-        img: "product/images/menu/veg-briyani.jpg",
-        idx: [
-            "Veg biryani,100",
-            "Paneeer biryani,120",
-            "Mushroom biryani,120",
-            "Gobi biryani,120",
-            "Brinji rice,60"
-        ]
-    },
-    5: {
-        name: "Hyderabadi Dum Biryani",
-        img: "product/images/menu/hyd-biryani.jpg",
-        idx: [
-            "Chicken Dum Biryani,150",
-            "Prawn Dum Biyani,180",
-            "Fish Dum Biryani,180",
-            "Kadai Biryani,150"
-        ]
-    },
-    6: {
+    }],
+    biryani: [
+        {
+            index: 1,
+            name: "Thokku Biryani",
+            img: "product/images/menu/biryani.jpg",
+            idx: [
+                "Kushka,80",
+                "Fried Egg Biryani,90",
+                "Chicken Thokku Biryani,120",
+                "Special Chicken Biryani,150",
+                "Mughlai Chicken Biryani,150"
+            ]
+        },
+        {
+            index: 2,
+            name: "Veg Biryani",
+            img: "product/images/menu/veg-briyani.jpg",
+            idx: [
+                "Veg biryani,100",
+                "Paneeer biryani,120",
+                "Mushroom biryani,120",
+                "Gobi biryani,120",
+                "Brinji rice,60"
+            ]
+        },
+        {
+            index: 3,
+            name: "Hyderabadi Dum Biryani",
+            img: "product/images/menu/hyd-biryani.jpg",
+            idx: [
+                "Chicken Dum Biryani,150",
+                "Prawn Dum Biyani,180",
+                "Fish Dum Biryani,180",
+                "Kadai Biryani,150"
+            ]
+        },
+        {
+            index: 4,
+            name: "Indian Rice",
+            img: "product/images/menu/ghee.jpg",
+            idx: [
+                "Ghee Rice,99",
+                "Jeera Rice,120",
+                "White Rice With Chicken Thokku,150",
+                "White Rice With Fish Gravy,180",
+                "White Rice With Prawn Gravy,180",
+                "White Rice With Rasam,80"
+            ]
+        }],
+    chinese: [{
+        index: 1,
         name: "Chinese Fried Rice / Noodles",
         img: "product/images/menu/noodles.jpg",
         idx: [
@@ -92,20 +111,9 @@ const items = {
             "American Chopsy,150",
             "Scezwan Extra,20"
         ]
-    },
-    7: {
-        name: "Indian Rice",
-        img: "product/images/menu/ghee.jpg",
-        idx: [
-            "Ghee Rice,99",
-            "Jeera Rice,120",
-            "White Rice With Chicken Thokku,150",
-            "White Rice With Fish Gravy,180",
-            "White Rice With Prawn Gravy,180",
-            "White Rice With Rasam,80"
-        ]
-    },
-    8: {
+    }],
+    tiffin: [{
+        index: 1,
         name: "Parotta / Idiappam",
         img: "product/images/menu/parotta.jpg",
         idx: [
@@ -138,8 +146,8 @@ const items = {
             "Idiappam Mushroom Kothu,120",
             "Idiappam Gobi Kothu,120"
         ]
-    },
-    9: {
+    }, {
+        index: 2,
         name: "Dosa",
         img: "product/images/menu/dosa.jpg",
         idx: [
@@ -159,8 +167,9 @@ const items = {
             "Chicken dosa,120",
             "Prawn dosa,140",
         ]
-    },
-    10: {
+    }],
+    tandoori: [{
+        index: 1,
         name: "Tandoori Naan",
         img: "product/images/menu/butter-naan.jpg",
         idx: [
@@ -180,8 +189,8 @@ const items = {
             "Kashmiri Paratha,140",
             "Kasmiri Naan,140"
         ]
-    },
-    11: {
+    }, {
+        index: 2,
         name: "Tandoori Chicken",
         img: "product/images/menu/tandoori-chicken.jpg",
         idx: [
@@ -193,8 +202,9 @@ const items = {
             "Half Tandoori Chicken,220",
             "Full Tandoori Chicken,400"
         ]
-    },
-    12: {
+    }],
+    shakes: [{
+        index: 1,
         name: "Thick Shakes",
         img: "product/images/menu/simple-shake.jpg",
         idx: [
@@ -206,8 +216,8 @@ const items = {
             "Black Currant,169",
             "Butterscotch,169"
         ]
-    },
-    13: {
+    }, {
+        index: 2,
         name: "Elite Flavour Thick Shakes",
         img: "product/images/menu/thick-shake.jpg",
         idx: [
@@ -218,9 +228,10 @@ const items = {
             "Double Chocolate,149 ",
             "Frappe,169"
         ]
-    },
-    14: {
-        name: "Desert",
+    }],
+    dessert: [{
+        index: 1,
+        name: "Dessert",
         img: "product/images/menu/brownie.jpg",
         idx: [
             "Brownie With Ice Cream,90",
@@ -234,7 +245,7 @@ const items = {
             "Ice Cream Topped Butterscotch Nuts,90",
             "Titanic Boat Ice Cream,99"
         ]
-    }
+    }]
 }
 
 export default items;

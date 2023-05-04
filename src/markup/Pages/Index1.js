@@ -120,12 +120,9 @@ class Index1 extends Component{
 										<div className="row p-l30">
 											<div className="col-lg-6 col-sm-6 m-b30">
 												<div className="icon-bx-wraper text-white service-box2">
-													<div className="icon-bx">
-														<img src={require('./../../images/icons/service-icon/icon2.png')} alt="" />
-													</div>
 													<div className="icon-content">
+														<i className="flaticon-cake"></i>
 														<h5 className="dlab-tilte">Pancakes</h5>
-														<p>Lorem Ipsum is dummy</p>
 													</div>
 												</div>
 											</div>

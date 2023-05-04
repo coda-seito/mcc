@@ -1,0 +1,101 @@
+$flaticon_mass_cake_cafe-font: "flaticon_mass_cake_cafe";
+
+@font-face {
+    font-family: $flaticon_mass_cake_cafe-font;
+    src: url("./flaticon_mass_cake_cafe.ttf?b3562c3a4bf09fb7ed30e87d0d15c46f") format("truetype"),
+url("./flaticon_mass_cake_cafe.woff?b3562c3a4bf09fb7ed30e87d0d15c46f") format("woff"),
+url("./flaticon_mass_cake_cafe.woff2?b3562c3a4bf09fb7ed30e87d0d15c46f") format("woff2"),
+url("./flaticon_mass_cake_cafe.eot?b3562c3a4bf09fb7ed30e87d0d15c46f#iefix") format("embedded-opentype"),
+url("./flaticon_mass_cake_cafe.svg?b3562c3a4bf09fb7ed30e87d0d15c46f#flaticon_mass_cake_cafe") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_mass_cake_cafe !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon_mass_cake_cafe-map: (
+    "tortilla": "\f101",
+    "roti-canai": "\f102",
+    "biryani": "\f103",
+    "ladoo": "\f104",
+    "biryani-1": "\f105",
+    "curry": "\f106",
+    "curry-1": "\f107",
+    "curry-2": "\f108",
+    "noodles": "\f109",
+    "turkey": "\f10a",
+    "milkshake": "\f10b",
+    "ice-cream": "\f10c",
+    "french-fries": "\f10d",
+    "burger": "\f10e",
+    "cola": "\f10f",
+    "sandwich": "\f110",
+    "cookies": "\f111",
+    "brownie": "\f112",
+    "cake": "\f113",
+);
+
+.flaticon-tortilla:before {
+    content: map-get($flaticon_mass_cake_cafe-map, "tortilla");
+}
+.flaticon-roti-canai:before {
+    content: map-get($flaticon_mass_cake_cafe-map, "roti-canai");
+}
+.flaticon-biryani:before {
+    content: map-get($flaticon_mass_cake_cafe-map, "biryani");
+}
+.flaticon-ladoo:before {
+    content: map-get($flaticon_mass_cake_cafe-map, "ladoo");
+}
+.flaticon-biryani-1:before {
+    content: map-get($flaticon_mass_cake_cafe-map, "biryani-1");
+}
+.flaticon-curry:before {
+    content: map-get($flaticon_mass_cake_cafe-map, "curry");
+}
+.flaticon-curry-1:before {
+    content: map-get($flaticon_mass_cake_cafe-map, "curry-1");
+}
+.flaticon-curry-2:before {
+    content: map-get($flaticon_mass_cake_cafe-map, "curry-2");
+}
+.flaticon-noodles:before {
+    content: map-get($flaticon_mass_cake_cafe-map, "noodles");
+}
+.flaticon-turkey:before {
+    content: map-get($flaticon_mass_cake_cafe-map, "turkey");
+}
+.flaticon-milkshake:before {
+    content: map-get($flaticon_mass_cake_cafe-map, "milkshake");
+}
+.flaticon-ice-cream:before {
+    content: map-get($flaticon_mass_cake_cafe-map, "ice-cream");
+}
+.flaticon-french-fries:before {
+    content: map-get($flaticon_mass_cake_cafe-map, "french-fries");
+}
+.flaticon-burger:before {
+    content: map-get($flaticon_mass_cake_cafe-map, "burger");
+}
+.flaticon-cola:before {
+    content: map-get($flaticon_mass_cake_cafe-map, "cola");
+}
+.flaticon-sandwich:before {
+    content: map-get($flaticon_mass_cake_cafe-map, "sandwich");
+}
+.flaticon-cookies:before {
+    content: map-get($flaticon_mass_cake_cafe-map, "cookies");
+}
+.flaticon-brownie:before {
+    content: map-get($flaticon_mass_cake_cafe-map, "brownie");
+}
+.flaticon-cake:before {
+    content: map-get($flaticon_mass_cake_cafe-map, "cake");
+}

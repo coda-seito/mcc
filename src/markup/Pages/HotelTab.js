@@ -35,7 +35,7 @@ const Popupss = (props) => {
                         <ul className="nav nav-tabs pizza-items filters">
                             <li className="nav-item item">
                                 <input type="radio"/>
-                                <Link to="?tab=cakes" className={classnames({active: activeTab === 'cake'}, 'item-icon-box nav-link')}
+                                <Link to="?tab=cakes" className={classnames({active: activeTab === 'cakes'}, 'item-icon-box nav-link')}
                                       onClick={() => {
                                           toggle('cakes');
                                       }}>

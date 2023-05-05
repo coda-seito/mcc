@@ -84,20 +84,44 @@ class Index1 extends Component{
 										</div>
 									</div>
 								</div>
-								<div className="row">
-									<div className="col-lg-12">
-										<div className="section-head mb-0 text-center">
-											<div className="icon-bx icon-bx-xl">
-												<img src={require('./../../images/cake1.jpg')} alt="" />
+								<div className="section-full bg-white" style={{backgroundImage:"url(" + img3 + ")", backgroundSize:"100%" }}>
+									<div className="container">
+										<div className="row">
+											<div className="col-lg-12">
+												<div className="section-head text-center">
+													<div className="icon-bx icon-bx-xl">
+														<img src={require('./../../images/cake1.jpg')} alt="" />
+													</div>
+													<h3><strike>Buy 1 kg, Get ½ Kg Free</strike></h3>
+													<p>Other shops trick you with "Buy 1 kg, Get ½ Kg Free" offer by raising the prices. We believe in honesty and sell best quality products at a very reasonable price.</p>
+												</div>
 											</div>
-											<h3 className="text-primary">It’s a party and you’re invited</h3>
-											<p className="main-text">Join Mass Cake Cafe(<strong>Mc<sup>2</sup></strong>) to earn Gold level benefits like free Cakes and food, exclusive discounts, access to secret menu and more.</p>
-											<p>Exclusive deals on Cakes, delivered straight to your inbox <Link to={''}>Join Now</Link></p>
+										</div>
+									</div>
+									<div className="container">
+										<div className="row m-lr0 about-area1">
+											<div className="col-lg-6 p-lr0">
+												<img className="img-cover" src={require('./../../images/about/pic3-1.jpg')} alt="" />
+											</div>
+											<div className="col-lg-6 p-lr0 d-flex align-items-center text-center">
+												<div className="about-bx">
+													<div className="section-head text-center text-white">
+														<h4 className="text-white">Limited Time Offer</h4>
+														<p>Birthday Cake Sale!</p>
+														<div className="icon-bx">
+															<img src={require('./../../images/icons/service-icon/icon1.png')} alt="" />
+														</div>
+													</div>
+													<p>10% discount on all cakes with a "Happy Birthday" writing on it.</p>
+													<p>Rs 100 off with 100 points on loyalty rewards</p>
+													<a href="tel:+917845963618" className="btn-secondry white btnhover btn-md"><i className="fa fa-cart"></i>GET NOW</a>
+												</div>
+											</div>
 										</div>
 									</div>
 								</div>
 							</div>
-						</div>					
+						</div>
 						<div className="section-full content-inner service-area2 bg-img-fix bg-line-top bg-line-bottom" style={{backgroundImage: "url(" + img4 + ")",  backgroundSize: "cover" }}>
 							<div className="container">
 								<div className="row">
@@ -186,39 +210,15 @@ class Index1 extends Component{
 								</div>
 							</div>
 						</div>
-						<div className="section-full bg-white" style={{backgroundImage:"url(" + img3 + ")", backgroundSize:"100%" }}>
-							<div className="container content-inner">
-								<div className="row">
-									<div className="col-lg-12">
-										<div className="section-head text-center">
-											<div className="icon-bx icon-bx-xl">
-												<img src={require('./../../images/cake1.jpg')} alt="" />
-											</div>
-											<h3><strike>Buy 1 kg, Get ½ Kg Free</strike></h3>
-											<p>Other shops trick you with "Buy 1 kg, Get ½ Kg Free" offer by raising the prices. We believe in honesty and sell best quality products at a very reasonable price.</p>
-										</div>
+						<div className="row">
+							<div className="col-lg-12">
+								<div className="section-head mb-0 text-center">
+									<div className="icon-bx icon-bx-xl">
+										<img src={require('./../../images/cake1.jpg')} alt="" />
 									</div>
-								</div>
-							</div>
-							<div className="container">
-								<div className="row m-lr0 about-area1">
-									<div className="col-lg-6 p-lr0">
-										<img className="img-cover" src={require('./../../images/about/pic3-1.jpg')} alt="" />
-									</div>
-									<div className="col-lg-6 p-lr0 d-flex align-items-center text-center">
-										<div className="about-bx">
-											<div className="section-head text-center text-white">
-												<h4 className="text-white">Limited Time Offer</h4>
-												<p>Birthday Cake Sale!</p>
-												<div className="icon-bx">
-													<img src={require('./../../images/icons/service-icon/icon1.png')} alt="" />
-												</div>
-											</div>
-											<p>10% discount on all cakes with a "Happy Birthday" writing on it.</p>
-											<p>Rs 100 off with 100 points on loyalty rewards</p>
-											<Link to="tel:+917845963618" className="btn-secondry white btnhover btn-md"><i className="fa fa-cart"></i>GET NOW</Link>
-										</div>
-									</div>
+									<h3 className="text-primary">It’s a party and you’re invited</h3>
+									<p className="main-text">Join Mass Cake Cafe(<strong>Mc<sup>2</sup></strong>) to earn Gold level benefits like free Cakes and food, exclusive discounts, access to secret menu and more.</p>
+									<p>Exclusive deals on Cakes, delivered straight to your inbox <Link to={''}>Join Now</Link></p>
 								</div>
 							</div>
 						</div>

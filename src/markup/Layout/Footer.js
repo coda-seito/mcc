@@ -18,12 +18,15 @@ class Footer extends Component{
 									<h5 className="footer-title text-white">Contact Us</h5>
 									<ul>
 										<li>
+											<a href="https://goo.gl/maps/1ZZ8xxPcz4yi7Jh18">
 											<i className="fa fa-map-marker"></i> 
 											<p>Rajiv Gandhi Salai Street, near RTS Food Street, Navalur</p>
+											</a>
 										</li>
 										<li>
-											<i className="fa fa-mobile"></i> 
+											<a href="tel:+917845963618"><i className="fa fa-mobile"></i>
 											<p>(+91) 7845963618</p>
+											</a>
 										</li>
 										<li>
 											<i className="fa fa-envelope"></i>
@@ -47,7 +50,6 @@ class Footer extends Component{
 										<li><Link to={'/'}>Home</Link></li>
 										<li><Link to={'/about-1'}>About</Link></li>
 										<li><Link to={'/menu'}>Our Menu</Link></li>
-										<li><Link to={'/shop'}>Shop</Link></li>
 										<li><Link to={'/contact'}>Contact</Link></li>
 									</ul>
 								</div>

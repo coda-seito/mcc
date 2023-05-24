@@ -4,7 +4,7 @@ const items = {
         name: "Starters / Curry (Veg)",
         img: "product/images/menu/pic1-1.webp",
         idx: [
-            "Gobi 65,140",
+            "Gobi 65,99",
             "Mushroom 65,140",
             "Paneer 65,140",
             "Chilli paneer,140",
@@ -24,6 +24,7 @@ const items = {
         name: "Starters / Curry (Non Veg)",
         img: "product/images/menu/pic2-1.webp",
         idx: [
+            "Chicken 65,85",
             "Chicken 65,150",
             "Chilli chicken,150",
             "Chicken Manchurian,150",
@@ -45,14 +46,19 @@ const items = {
     biryani: [
         {
             index: 1,
-            name: "Thokku Biryani",
+            name: "Non Veg Biryani",
             img: "product/images/menu/biryani.webp",
             idx: [
-                "Kushka,80",
                 "Fried Egg Biryani,90",
-                "Chicken Thokku Biryani,120",
+                "Chicken Thokku Biryani,150",
                 "Special Chicken Biryani,150",
-                "Mughlai Chicken Biryani,150"
+                "Mughlai Chicken Biryani,150",
+                "Hyderabadi Dum Biryani,150",
+                "Chicken Dum Biryani,150",
+                "Kadai Biryani,150",
+                "Prawn Biryani,180",
+                "Fish Biryani,180",
+                "Bamboo Chicken Biryani,185"
             ]
         },
         {
@@ -60,35 +66,25 @@ const items = {
             name: "Veg Biryani",
             img: "product/images/menu/veg-briyani.webp",
             idx: [
+                "Brinji rice,60",
+                "Kushka,80",
                 "Veg biryani,100",
                 "Paneeer biryani,120",
                 "Mushroom biryani,120",
                 "Gobi biryani,120",
-                "Brinji rice,60"
             ]
         },
         {
             index: 3,
-            name: "Hyderabadi Dum Biryani",
-            img: "product/images/menu/hyd-biryani.webp",
-            idx: [
-                "Chicken Dum Biryani,150",
-                "Prawn Dum Biyani,180",
-                "Fish Dum Biryani,180",
-                "Kadai Biryani,150"
-            ]
-        },
-        {
-            index: 4,
             name: "Indian Rice",
             img: "product/images/menu/ghee.webp",
             idx: [
+                "White Rice With Rasam,80",
                 "Ghee Rice,99",
                 "Jeera Rice,120",
                 "White Rice With Chicken Thokku,150",
                 "White Rice With Fish Gravy,180",
                 "White Rice With Prawn Gravy,180",
-                "White Rice With Rasam,80"
             ]
         }],
     chinese: [{
@@ -97,7 +93,7 @@ const items = {
         img: "product/images/menu/noodles.webp",
         idx: [
             "Veg,90",
-            "Egg,100",
+            "Egg,90",
             "Chicken,120",
             "Mushroom,120",
             "Paneer,120",
@@ -105,7 +101,7 @@ const items = {
             "Veg Mixed,150",
             "Non Veg Mixed,180",
             "Special Chicken Rice,150",
-            "Crispy Fried Noodles,150",
+            "Crispy Fried Chicken Noodles,150",
             "Sechzwan Delux Chicken,180",
             "Chicken Chopsy,180",
             "American Chopsy,150",
@@ -114,58 +110,100 @@ const items = {
     }],
     tiffin: [{
         index: 1,
-        name: "Parotta / Idiappam",
+        name: "Parotta",
         img: "product/images/menu/parotta.webp",
         idx: [
+            "Chappathi,15",
             "Plain Parotta,20",
             "Bun Parotta,25",
-            "Kili Parotta,150",
             "Kerala Parotta,25",
-            "Chappathi,15",
             "Veechu Parotta,25",
-            "Egg Veechu Parotta,30",
-            "Veg Stuffed Parotta,99",
-            "Mushroom Stuffed Parotta,120",
-            "Paneer Stuffed Parotta,120",
-            "Gobi Stuffed Parotta,120",
-            "Egg Stuffed Parotta,90",
-            "Chicken Stuffed Parotta,120",
-            "Mutton Stuffed Parota,180",
-            "Prawn Stuffed Parotta,180",
-            "Chicken Murthabak,180",
-            "Egg Murthabak,120",
-            "Chilli Parotta,100",
+            "Egg Veechu Parotta,40",
             "Egg Kothu Parotta,80",
             "Veg Kothu Parotta,80",
+            "Egg Stuffed Parotta,90",
+            "Veg Stuffed Parotta,99",
+            "Chilli Parotta,100",
             "Chicken Kothu Parotta,120",
-            "Mutton Kothu Parotta,180",
+            "Mushroom Stuffed Parotta,120",
             "Paneer Kothu Parotta,120",
             "Mushroom Kothu Parotta,120",
-            "Idiappam Veg Kothu,80",
-            "Idiappam Paneer Kothu,120",
-            "Idiappam Mushroom Kothu,120",
-            "Idiappam Gobi Kothu,120"
+            "Paneer Stuffed Parotta,120",
+            "Egg Murthabak,120",
+            "Gobi Stuffed Parotta,120",
+            "Chicken Stuffed Parotta,120",
+            "Veg Pizza Parotta,150",
+            "Kili Parotta,150",
+            "Prawn Stuffed Parotta,180",
+            "Chicken Murthabak,180",
+            "Mutton Stuffed Parota,199",
+            "Mutton Kothu Parotta,199",
+            "Fish Stuffed Parotta,180",
+            "Chicken Pizza Parotta,180",
+            "Mushroom Pizza Parotta,180",
+            "Paneer Pizza Parotta,180",
         ]
-    }, {
-        index: 2,
+    },
+        {
+            index: 2,
+            name: "Idiappam",
+            img: "product/images/menu/idiappam.webp",
+            idx: [
+                "Plain Idiappam 2 Pc,40",
+                "Idiappam Veg Kothu,80",
+                "Idiappam Mushroom Kothu,120",
+                "Idiappam Panner Kothu,120",
+                "Idiappam Gobi Kothu,120",
+                "Iddappam Chicken Kothu,120",
+                "Idiappam Paneer Kothu,120",
+                "Idiappam Mushroom Kothu,120",
+                "Idiappam Gobi Kothu,120",
+                "Iduappam Prawn Kothu,180",
+                "Idiappam Fish Kothu,180",
+            ]
+        },
+        {
+            index: 3,
+            name: "Idli",
+            img: "product/images/menu/idli.webp",
+            idx: [
+                "Idli 1 Pc,8",
+                "Ghee Podi Idli 2 Pcs,60",
+                "Chocochip Idli 2 Pcs,60",
+                "Mini Sambar Idli 1 Plate,90",
+                "Kothu Idli Paneer,120",
+                "Kothu Idli Mushroom,120",
+                "Kothu Idli Gobi,120",
+                "Kothu Idli Chicken,120",
+                "Kothu Idli Prawn,180",
+                "Kohtu Idli Fish,180",
+            ]
+        },{
+        index: 4,
         name: "Dosa",
         img: "product/images/menu/dosa.webp",
         idx: [
             "Kal Dosa,20",
-            "Egg Kal Dosa,25",
-            "Onion Kal Dosa,25",
+            "Egg Kal Dosa,30",
+            "Onion Kal Dosa,30",
             "Plain Dosa,30",
             "Onion Dosa,40",
             "Egg dosa,40",
             "Ghee Roast,50",
             "Podi Dosa,50",
             "Rava dosa,80",
+            "Cheese Dosa,80",
             "Ghee podi dosa,80",
             "Gobi Masala Dosa,120",
             "Mushroom Masala Dosa,120",
             "Paneer masala dosa,120",
             "Chicken dosa,120",
             "Prawn dosa,140",
+            "Veg Pizza Dosa,120",
+            "Mushroom Pizza Dosa,150",
+            "Paneer Pizza Dosa,150",
+            "Chicken Pizza Dosa,150",
+            "Prawn Pizza Dosa,180"
         ]
     }],
     tandoori: [{
@@ -228,7 +266,21 @@ const items = {
             "Double Chocolate,149 ",
             "Frappe,169"
         ]
-    }],
+    },
+        {
+            index: 3,
+            name: "Budget Milk Shakes",
+            img: "product/images/menu/budget-shake.webp",
+            idx: [
+                "Vanilla,60",
+                "Mango,60",
+                "Pineapple,60",
+                "Strawberry,60",
+                "Butterscotch,60",
+                "Chocolate,60",
+                "Black Currant,60"
+            ]
+        }],
     dessert: [{
         index: 1,
         name: "Dessert",

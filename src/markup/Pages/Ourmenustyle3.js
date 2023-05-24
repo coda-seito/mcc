@@ -1,10 +1,6 @@
 import React, {Component} from 'react';
-import {Link} from 'react-router-dom';
 import Header from './../Layout/Header';
 import Footer from './../Layout/Footer';
-import items from "./resources/hotel";
-import classnames from "classnames";
-import BakeryTab from "./BakeryTab";
 import HotelTab from "./HotelTab";
 
 var img = require('./../../images/banner/bnr1.jpg');

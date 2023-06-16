@@ -24,6 +24,13 @@ const Popupss = (props) => {
     }
     const [activeTab, setActiveTab] = useState(initialState);
 
+    function isValid(date, h1, m1, h2, m2) {
+        var h = date.getHours();
+        var m = date.getMinutes();
+        return (h1 < h || h1 == h && m1 <= m) && (h < h2 || h == h2 && m <= m2);
+    }
+
+    const isHappyHour = isValid(new Date(), 0, 0, 19, 0);
     const toggle = tab => {
         if (activeTab !== tab) setActiveTab(tab);
     }
@@ -35,7 +42,8 @@ const Popupss = (props) => {
                         <ul className="nav nav-tabs pizza-items filters">
                             <li className="nav-item item">
                                 <input type="radio"/>
-                                <Link to="?tab=cakes" className={classnames({active: activeTab === 'cakes'}, 'item-icon-box nav-link')}
+                                <Link to="?tab=cakes"
+                                      className={classnames({active: activeTab === 'cakes'}, 'item-icon-box nav-link')}
                                       onClick={() => {
                                           toggle('cakes');
                                       }}>
@@ -45,7 +53,8 @@ const Popupss = (props) => {
                             </li>
                             <li className="nav-item item">
                                 <input type="radio"/>
-                                <Link to="?tab=curry" className={classnames({active: activeTab === 'curry'}, 'item-icon-box nav-link')}
+                                <Link to="?tab=curry"
+                                      className={classnames({active: activeTab === 'curry'}, 'item-icon-box nav-link')}
                                       onClick={() => {
                                           toggle('curry');
                                       }}>
@@ -55,7 +64,8 @@ const Popupss = (props) => {
                             </li>
                             <li className="nav-item item">
                                 <input type="radio"/>
-                                <Link to="?tab=biryani" className={classnames({active: activeTab === 'biryani'}, 'item-icon-box nav-link')}
+                                <Link to="?tab=biryani"
+                                      className={classnames({active: activeTab === 'biryani'}, 'item-icon-box nav-link')}
                                       onClick={() => {
                                           toggle('biryani');
                                       }}>
@@ -65,7 +75,8 @@ const Popupss = (props) => {
                             </li>
                             <li className="nav-item item">
                                 <input type="radio"/>
-                                <Link to="?tab=chinese" className={classnames({active: activeTab === 'chinese'}, 'item-icon-box nav-link')}
+                                <Link to="?tab=chinese"
+                                      className={classnames({active: activeTab === 'chinese'}, 'item-icon-box nav-link')}
                                       onClick={() => {
                                           toggle('chinese');
                                       }}>
@@ -75,7 +86,8 @@ const Popupss = (props) => {
                             </li>
                             <li className="nav-item item">
                                 <input type="radio"/>
-                                <Link to="?tab=tiffin" className={classnames({active: activeTab === 'tiffin'}, 'item-icon-box nav-link')}
+                                <Link to="?tab=tiffin"
+                                      className={classnames({active: activeTab === 'tiffin'}, 'item-icon-box nav-link')}
                                       onClick={() => {
                                           toggle('tiffin');
                                       }}>
@@ -85,7 +97,8 @@ const Popupss = (props) => {
                             </li>
                             <li className="nav-item item">
                                 <input type="radio"/>
-                                <Link to="?tab=tandoori" className={classnames({active: activeTab === 'tandoori'}, 'item-icon-box nav-link')}
+                                <Link to="?tab=tandoori"
+                                      className={classnames({active: activeTab === 'tandoori'}, 'item-icon-box nav-link')}
                                       onClick={() => {
                                           toggle('tandoori');
                                       }}>
@@ -95,7 +108,8 @@ const Popupss = (props) => {
                             </li>
                             <li className="nav-item item">
                                 <input type="radio"/>
-                                <Link to="?tab=shakes" className={classnames({active: activeTab === 'shakes'}, 'item-icon-box nav-link')}
+                                <Link to="?tab=shakes"
+                                      className={classnames({active: activeTab === 'shakes'}, 'item-icon-box nav-link')}
                                       onClick={() => {
                                           toggle('shakes');
                                       }}>
@@ -105,7 +119,8 @@ const Popupss = (props) => {
                             </li>
                             <li className="nav-item item">
                                 <input type="radio"/>
-                                <Link to="?tab=dessert" className={classnames({active: activeTab === 'dessert'}, 'item-icon-box nav-link')}
+                                <Link to="?tab=dessert"
+                                      className={classnames({active: activeTab === 'dessert'}, 'item-icon-box nav-link')}
                                       onClick={() => {
                                           toggle('dessert');
                                       }}>
@@ -131,9 +146,13 @@ const Popupss = (props) => {
                                             </div>
                                             <div className="item-info text-center">
                                                 <h4 className="item-title">{item.name}</h4>
-                                                <h5 className="price text-primary">
-                                                    <div>½ kg - ₹{item["half-kilo-price"]}</div>
-                                                    <div>1 kg - ₹{item["kilo-price"]}</div>
+                                                <h5 className="text-primary">
+                                                    {isHappyHour && (
+                                                        <div>
+                                                            <span className='price'>½ kg - <span className='price-red'><strike>{item["half-kilo-price"]}</strike>&nbsp;&nbsp;</span>{item["half-kilo-price"]*0.80}</span>
+                                                            <span className='price'>1 kg - <span className='price-red'><strike>{item["kilo-price"]}</strike>&nbsp;&nbsp;</span>{Math.round(item["kilo-price"]*0.80)}</span>
+                                                        </div>
+                                                    )}
                                                 </h5>
                                             </div>
                                         </div>
@@ -142,31 +161,41 @@ const Popupss = (props) => {
                         </TabPane>
                         {Object.keys(items).map((key) => (
                             <TabPane tabId={key}>
-                            <div className="section-full bg-white">
-                                {items[key].map((item1) => (
-                                        item1.index%2 == 0? <div className="row sp0">
-                                            <div className="col-lg-6">
-                                                <img src={`${item1.img}`} alt="" className="img-cover"/>
-                                            </div>
-                                            <div className="col-lg-6">
-                                                <div className="menu-box">
-                                                    <div className="section-head style-2">
-                                                        <h2 className="title">{item1.name}</h2>
-                                                    </div>
-                                                    <ul className="menu-list-2">
-                                                        {item1.idx.map((item) => (
-                                                            <li>
-                                                                <div className="info-price">
-                                                                    <h5 className="title">{item.split(",")[0]}</h5>
-                                                                    <div className="line"></div>
-                                                                    <span className="price">{item.split(",")[1]}</span>
-                                                                </div>
-                                                            </li>
-                                                        ))}
-                                                    </ul>
+                                <div className="section-full bg-white">
+                                    {items[key].map((item1) => (
+                                        item1.index % 2 == 0 ? <div className="row sp0">
+                                                <div className="col-lg-6">
+                                                    <img src={`${item1.img}`} alt="" className="img-cover"/>
                                                 </div>
-                                            </div>
-                                        </div>:
+                                                <div className="col-lg-6">
+                                                    <div className="menu-box">
+                                                        <div className="section-head style-2">
+                                                            <h2 className="title">{item1.name}</h2>
+                                                        </div>
+                                                        <ul className="menu-list-2">
+                                                            {item1.idx.map((item) => (
+                                                                <li>
+                                                                    <div className="info-price">
+                                                                        <h5 className="title">{item.split(",")[0]}</h5>
+                                                                        <div className="line"></div>
+                                                                        {isHappyHour && (
+                                                                            <div>
+                                                                                <span className="price-red"><strike>{item.split(",")[1]}</strike>&nbsp;&nbsp;</span>
+                                                                                <span className="price">{Math.round((item.split(",")[1])*0.80)}</span>
+                                                                            </div>
+                                                                        )}
+                                                                        {!isHappyHour && (
+                                                                            <div>
+                                                                                <span className="price">{item.split(",")[1]}</span>
+                                                                            </div>
+                                                                        )}
+                                                                    </div>
+                                                                </li>
+                                                            ))}
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div> :
                                             <div className="row manu-box-reverse sp0">
                                                 <div className="col-lg-6">
                                                     <div className="menu-box">
@@ -179,7 +208,17 @@ const Popupss = (props) => {
                                                                     <div className="info-price">
                                                                         <h5 className="title">{item.split(",")[0]}</h5>
                                                                         <div className="line"></div>
-                                                                        <span className="price">{item.split(",")[1]}</span>
+                                                                        {isHappyHour && (
+                                                                            <div>
+                                                                                <span className="price-red"><strike>{item.split(",")[1]}</strike>&nbsp;&nbsp;</span>
+                                                                                <span className="price">{Math.round((item.split(",")[1])*0.80)}</span>
+                                                                            </div>
+                                                                        )}
+                                                                        {!isHappyHour && (
+                                                                            <div>
+                                                                                <span className="price">{item.split(",")[1]}</span>
+                                                                            </div>
+                                                                        )}
                                                                     </div>
                                                                 </li>
                                                             ))}
@@ -191,9 +230,9 @@ const Popupss = (props) => {
                                                 </div>
                                             </div>
                                     ))
-                                }
-                            </div>
-                        </TabPane>))}
+                                    }
+                                </div>
+                            </TabPane>))}
                     </TabContent>
                 </div>
             </div>

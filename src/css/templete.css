@@ -1383,6 +1383,9 @@
     display: table;
     font-weight: 600;
 }
+.shop-item .price-red {
+    color: #E7272DFF;
+}
 .shop-item .sale{
 	left: 15px;
 	font-size: 14px;
@@ -2006,6 +2009,11 @@ ol.comment-list li.comment .reply a {
 }
 .menu-list-2 li .info-price .price{
 	color: var(--color-primary);
+    font-size: 18px;
+    font-weight: 600;
+}
+.menu-list-2 li .info-price .price-red{
+    color: #E7272DFF;
     font-size: 18px;
     font-weight: 600;
 }

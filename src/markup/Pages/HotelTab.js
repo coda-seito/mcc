@@ -30,7 +30,7 @@ const Popupss = (props) => {
         return (h1 < h || h1 == h && m1 <= m) && (h < h2 || h == h2 && m <= m2);
     }
 
-    const isHappyHour = isValid(new Date(), 0, 0, 19, 0);
+    const isHappyHour = isValid(new Date(), 16, 0, 19, 0);
     const toggle = tab => {
         if (activeTab !== tab) setActiveTab(tab);
     }
@@ -151,6 +151,12 @@ const Popupss = (props) => {
                                                         <div>
                                                             <span className='price'>½ kg - <span className='price-red'><strike>{item["half-kilo-price"]}</strike>&nbsp;&nbsp;</span>{item["half-kilo-price"]*0.80}</span>
                                                             <span className='price'>1 kg - <span className='price-red'><strike>{item["kilo-price"]}</strike>&nbsp;&nbsp;</span>{Math.round(item["kilo-price"]*0.80)}</span>
+                                                        </div>
+                                                    )}
+                                                    {!isHappyHour && (
+                                                        <div>
+                                                            <span className='price'>½ kg - {item["half-kilo-price"]}</span>
+                                                            <span className='price'>1 kg - {item["kilo-price"]}</span>
                                                         </div>
                                                     )}
                                                 </h5>

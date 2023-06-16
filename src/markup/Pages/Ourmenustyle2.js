@@ -15,7 +15,9 @@ class Ourmenustyle2 extends Component{
 				<div className="dlab-bnr-inr overlay-black-middle no-line" style={{backgroundImage:"url(" + img + ")"}}>
 					<div className="container">
 						<div className="dlab-bnr-inr-entry">
-							<h1 className="text-white">Cafe Menu</h1>
+							<h1 className="text-white">Happy Hour!!</h1>
+							<span className="text-white">4:00PM - 7:00PM</span>
+							<h3 className="text-white">20% discount on everything</h3>
 						</div>
 					</div>
 				</div>

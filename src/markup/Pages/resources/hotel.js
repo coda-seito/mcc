@@ -295,7 +295,8 @@ const items = {
             "Ice Cream Topped Black Currant Sauce,70",
             "Ice Cream Topped Caramel,70",
             "Ice Cream Topped Butterscotch Nuts,90",
-            "Titanic Boat Ice Cream,99"
+            "Titanic Boat Ice Cream,99",
+            "Deluxe Kesari,30"
         ]
     }]
 }

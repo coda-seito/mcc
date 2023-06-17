@@ -21,7 +21,7 @@ class Ourmenustyle2 extends Component{
 			<Header />
 			<div className="page-content bg-white">
 				<div style={{ justifyContent: 'center', display:'flex'}}>
-					{!isHappyHour && <ConfettiExplosion force={0.1} particleSize={12} width={2000} zIndex={3} duration={3000}/>}
+					{isHappyHour && <ConfettiExplosion force={0.1} particleSize={12} width={2000} zIndex={3} duration={3000}/>}
 				</div>
 				<div className="dlab-bnr-inr overlay-black-middle no-line" style={{backgroundImage:"url(" + img + ")"}}>
 					<div className="container">

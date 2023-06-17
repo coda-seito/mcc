@@ -31,16 +31,17 @@ const items = {
             "Chicken chukka,150",
             "Garlic chicken,150",
             "Ginger chicken,150",
-            "Dragon chicken,180",
-            "Sungai chicken,180",
-            "Sezwan chicken,180",
+            "Pepper chicken fry,150",
+            "Chicken topioza,150",
             "Chicken masala,160",
             "Pepper chicken gravy,160",
-            "Pepper chicken fry,150",
             "Kadai chicken,160",
             "Butter chicken masala,170",
             "Mughalai chicken,180",
-            "Chicken topioza,150"
+            "Dragon chicken,180",
+            "Sungai chicken,180",
+            "Sezwan chicken,180",
+            "Fish Gravy,190"
         ]
     }],
     biryani: [
@@ -160,6 +161,7 @@ const items = {
                 "Idiappam Gobi Kothu,120",
                 "Iduappam Prawn Kothu,180",
                 "Idiappam Fish Kothu,180",
+                "Fish Puttu,180"
             ]
         },
         {

@@ -30,7 +30,7 @@ const Popupss = (props) => {
         return (h1 < h || h1 == h && m1 <= m) && (h < h2 || h == h2 && m <= m2);
     }
 
-    const isHappyHour = isValid(new Date(), 16, 0, 19, 0);
+    const isHappyHour = isValid(new Date(), 16, 0, 18, 0);
     const toggle = tab => {
         if (activeTab !== tab) setActiveTab(tab);
     }

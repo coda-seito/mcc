@@ -15,7 +15,7 @@ class Ourmenustyle2 extends Component{
 			return (h1 < h || h1 == h && m1 <= m) && (h < h2 || h == h2 && m <= m2);
 		}
 
-		const isHappyHour = isValid(new Date(), 16, 0, 19, 0);
+		const isHappyHour = isValid(new Date(), 16, 0, 18, 0);
 		return(
 			<>
 			<Header />
@@ -27,7 +27,7 @@ class Ourmenustyle2 extends Component{
 					<div className="container">
 						<div className="dlab-bnr-inr-entry">
 							<h1 className="text-white">Happy Hour!!</h1>
-							<span className="text-white">4:00PM - 7:00PM</span>
+							<span className="text-white">4:00PM - 6:00PM</span>
 							<h3 className="text-white">20% discount on everything</h3>
 						</div>
 					</div>

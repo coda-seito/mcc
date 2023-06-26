@@ -58,7 +58,9 @@ const items = {
                 "Kadai Biryani,150",
                 "Prawn Biryani,180",
                 "Fish Biryani,180",
-                "Bamboo Chicken Biryani,185"
+                "Bamboo Chicken Biryani,185",
+                "Prawn Thokku Biryani,250",
+                "Crab Thokku Biryani,280"
             ]
         },
         {

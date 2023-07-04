@@ -15,7 +15,7 @@ class Ourmenustyle2 extends Component{
 			return (h1 < h || h1 == h && m1 <= m) && (h < h2 || h == h2 && m <= m2);
 		}
 
-		const isHappyHour = isValid(new Date(), 16, 0, 18, 0);
+		const isHappyHour = isValid(new Date(), 0, 0, 0, 0);
 		return(
 			<>
 			<Header />
@@ -26,9 +26,9 @@ class Ourmenustyle2 extends Component{
 				<div className="dlab-bnr-inr overlay-black-middle no-line" style={{backgroundImage:"url(" + img + ")"}}>
 					<div className="container">
 						<div className="dlab-bnr-inr-entry">
-							<h1 className="text-white">Happy Hour!!</h1>
+							<h1 className="text-white">Combo Offer!!</h1>
 							<span className="text-white">4:00PM - 6:00PM</span>
-							<h3 className="text-white">20% discount on everything</h3>
+							<h3 className="text-white">Chicken Biryani, Sweet , Drink, Ice cream - Rs 150 only</h3>
 						</div>
 					</div>
 				</div>

@@ -16,7 +16,7 @@ const Popupss = (props) => {
         case 'biryani':
         case 'chinese':
         case 'tiffin':
-        // case 'tandoori':
+        case 'budget':
         case 'shakes':
         case 'dessert':
             initialState = tab
@@ -95,17 +95,17 @@ const Popupss = (props) => {
                                     <span>Tiffin</span>
                                 </Link>
                             </li>
-                            {/*<li className="nav-item item">*/}
-                            {/*    <input type="radio"/>*/}
-                            {/*    <Link to="?tab=tandoori"*/}
-                            {/*          className={classnames({active: activeTab === 'tandoori'}, 'item-icon-box nav-link')}*/}
-                            {/*          onClick={() => {*/}
-                            {/*              toggle('tandoori');*/}
-                            {/*          }}>*/}
-                            {/*        <i className="flaticon-turkey"></i>*/}
-                            {/*        <span>Tandoori</span>*/}
-                            {/*    </Link>*/}
-                            {/*</li>*/}
+                            <li className="nav-item item">
+                                <input type="radio"/>
+                                <Link to="?tab=budget"
+                                      className={classnames({active: activeTab === 'budget'}, 'item-icon-box nav-link')}
+                                      onClick={() => {
+                                          toggle('budget');
+                                      }}>
+                                    <i className="flaticon-curry-2"></i>
+                                    <span>Budget</span>
+                                </Link>
+                            </li>
                             <li className="nav-item item">
                                 <input type="radio"/>
                                 <Link to="?tab=shakes"

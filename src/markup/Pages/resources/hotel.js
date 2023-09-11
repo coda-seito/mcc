@@ -24,7 +24,6 @@ const items = {
         name: "Starters / Curry (Non Veg)",
         img: "product/images/menu/pic2-1.webp",
         idx: [
-            "Chicken 65,85",
             "Chicken 65,150",
             "Chilli chicken,150",
             "Chicken Manchurian,150",
@@ -54,13 +53,7 @@ const items = {
                 "Chicken Thokku Biryani,150",
                 "Mughlai Chicken Biryani,150",
                 "Hyderabadi Dum Biryani,150",
-                "Chicken Dum Biryani,150",
-                "Kadai Biryani,150",
-                "Prawn Biryani,180",
-                "Fish Biryani,180",
-                "Bamboo Chicken Biryani,185",
                 "Prawn Thokku Biryani,250",
-                "Crab Thokku Biryani,280"
             ]
         },
         {
@@ -210,41 +203,42 @@ const items = {
             "Prawn Pizza Dosa,180"
         ]
     }],
-    tandoori: [{
+    budget: [{
         index: 1,
-        name: "Tandoori Naan",
-        img: "product/images/menu/butter-naan.webp",
+        name: "Value for Money",
+        img: "product/images/menu/idli-dosa.webp",
         idx: [
-            "Naan,30",
-            "Rotti,30",
-            "Pulka,30",
-            "Lacha Paratha,40",
-            "Wheat Paratha,40",
-            "Aloo Paratha,40",
-            "Gobi Paratha,40",
-            "Garlick Naan,50",
-            "Methi Paratha,50",
-            "Butter Naan,60",
-            "Pisaberri Naan,110",
-            "Amitsari Kulcha,120",
-            "Veg Stuffed Kulcha,120",
-            "Kashmiri Paratha,140",
-            "Kasmiri Naan,140"
+            "Tomato  Rice,40",
+            "Lemon Rice,40",
+            "Brinji Rice,60",
+            "White Rice,40",
+            "Boiled Egg,10",
+            "Pulka,20",
+            "Softy Chappathi,20",
+            "Idli  Vada 1 Plate,40",
+            "Idli 3 Pcs,25",
+            "Ghee Podi Idli 2 Pcs,80",
+            "Dosa,30 ",
+            "Chola Poori,40",
+            "Poori  Masala 2 Pcs,50",
+            "Chana Masala,50"
         ]
-    }, {
-        index: 2,
-        name: "Tandoori Chicken",
-        img: "product/images/menu/tandoori-chicken.webp",
-        idx: [
-            "Mini Tandoori Chicken,99",
-            "Chicken Tikka,140",
-            "Resmy Kebab,150",
-            "Hariali Kebab,150",
-            "Malai Kebab,160",
-            "Half Tandoori Chicken,220",
-            "Full Tandoori Chicken,400"
-        ]
-    }],
+    },
+        {
+            index: 2,
+            name: "For PG Boys & Girls",
+            img: "product/images/menu/sambar.webp",
+            idx: [
+                "Sambar  500 gms,50",
+                "Rasam  500 gms,50",
+                "Kara kuzhambu,50 ",
+                "Chana gravy 500 gms,60",
+                "Fish gravy (only gravy),50",
+                "Chicken gravy (only gravy),50",
+                "Mutton gravy (only gravy	),60",
+                "Egg gravy,40"
+            ]
+        }],
     shakes: [{
         index: 1,
         name: "Thick Shakes",

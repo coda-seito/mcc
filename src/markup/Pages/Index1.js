@@ -42,44 +42,24 @@ class Index1 extends Component{
 						<Slider />
 						<div className="section-full content-inner-3" style={{backgroundImage:"url(" + img1 + ")",  backgroundSize:"100%" }}>
 							<div className="container">
-								<div className="row service-area1">
-									<div className="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-										<div className="icon-bx-wraper text-center service-box1" style={{backgroundImage: "url(" + serblog3 + ")"}}>
-											<div className="icon-content">
-												<h2 className="dlab-tilte text-white">Fresh Cakes</h2>
-												<p>Delicious Cake Experiences</p>
-												<div className="dlab-separator style1 bg-primary"></div>
-												<Link to={('/menu?tab=cakes')} className="btn btnhover">More details <i className="fa fa-angle-double-right m-l5"></i></Link>
-											</div>
-										</div>
-									</div>
+								<div className="row service-area1 justify-content-center">
 									<div className="col-xl-3 col-lg-3 col-md-6 col-sm-6">
 										<div className="icon-bx-wraper text-center service-box1" style={{backgroundImage: "url(" + serblog1 + ")"}}>
 											<div className="icon-content">
-												<h2 className="dlab-tilte text-white">Savouries</h2>
+												<h2 className="dlab-tilte text-white">Sundae</h2>
 												<p>Puffs & Sandwiches</p>
 												<div className="dlab-separator style1 bg-primary"></div>
-												<Link to={('/menu?tab=biryani')} className="btn btnhover">More details <i className="fa fa-angle-double-right m-l5"></i></Link>
+												<Link to={('/menu')} className="btn btnhover">More details <i className="fa fa-angle-double-right m-l5"></i></Link>
 											</div>
 										</div>
 									</div>
 									<div className="col-xl-3 col-lg-3 col-md-6 col-sm-6">
 										<div className="icon-bx-wraper text-center service-box1" style={{backgroundImage: "url(" + serblog2 + ")"}}>
 											<div className="icon-content">
-												<h2 className="dlab-tilte text-white">Beverages</h2>
+												<h2 className="dlab-tilte text-white">Cones</h2>
 												<p>Milk shakes & Bubble tea</p>
 												<div className="dlab-separator style1 bg-primary"></div>
-												<Link to={('/menu?tab=shakes')} className="btn btnhover">More details <i className="fa fa-angle-double-right m-l5"></i></Link>
-											</div>
-										</div>
-									</div>
-									<div className="col-xl-3 col-lg-3 col-md-6 col-sm-6">
-										<div className="icon-bx-wraper text-center service-box1" style={{backgroundImage: "url(" + serblog4 + ")"}}>
-											<div className="icon-content">
-												<h2 className="dlab-tilte text-white">Sweet Bites</h2>
-												<p>Brownies & Swiss Rolls</p>
-												<div className="dlab-separator style1 bg-primary"></div>
-												<Link to={('/menu?tab=dessert')} className="btn btnhover">More details <i className="fa fa-angle-double-right m-l5"></i></Link>
+												<Link to={('/menu')} className="btn btnhover">More details <i className="fa fa-angle-double-right m-l5"></i></Link>
 											</div>
 										</div>
 									</div>
@@ -92,7 +72,7 @@ class Index1 extends Component{
 													<div className="icon-bx icon-bx-xl">
 														<img src={require('./../../images/cake1.jpg')} alt="" />
 													</div>
-													<h3><strike>Buy 1 kg, Get ½ Kg Free</strike></h3>
+													<h3>Buy 1 kg, Get 1 Kg Free</h3>
 													<p>Other shops trick you with "Buy 1 kg, Get ½ Kg Free" offer by raising the prices. We believe in honesty and sell best quality products at a very reasonable price.</p>
 												</div>
 											</div>
@@ -107,13 +87,12 @@ class Index1 extends Component{
 												<div className="about-bx">
 													<div className="section-head text-center text-white">
 														<h4 className="text-white">Limited Time Offer</h4>
-														<p>Birthday Cake Sale!</p>
+														<p>Birthday Ice-cream Sale!</p>
 														<div className="icon-bx">
 															<img src={require('./../../images/icons/service-icon/icon1.png')} alt="" />
 														</div>
 													</div>
-													<p>10% discount on all cakes with a "Happy Birthday" writing on it.</p>
-													<p>Rs 100 off with 100 points on loyalty rewards</p>
+													<p>60% discount on all icecream if its your birthday.</p>
 													<a href="tel:+917845963618" className="btn-secondry white btnhover btn-md"><i className="fa fa-cart"></i>GET NOW</a>
 												</div>
 											</div>

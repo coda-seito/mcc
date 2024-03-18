@@ -2,137 +2,53 @@
 const cakesItems = {
     cakes: [
         {
-            "name": "Vanilla",
-            "half-kilo-price": 250,
-            "kilo-price": 399,
-            "pic": "product/images/cake/vanila.webp"
+            "name": "Soft serve",
+            "price": 40,
         },
         {
-            "name": "Black Forest",
-            "half-kilo-price": 250,
-            "kilo-price": 399,
-            "pic": "product/images/cake/black-forest.webp"
+            "name": "Soft serve choco dip",
+            "price": 60,
         },
         {
-            "name": "Green Apple",
-            "half-kilo-price": 250,
-            "kilo-price": 399,
-            "pic": "product/images/cake/green-apple.webp"
+            "name": "Soft serve with hot fudge mini",
+            "price": 60,
         },
         {
-            "name": "Strawberry",
-            "half-kilo-price": 300,
-            "kilo-price": 499,
-            "pic": "product/images/cake/strawberry.webp"
+            "name": "Soft serve with hot fudge maxi",
+            "price": 90,
         },
         {
-            "name": "Mango",
-            "half-kilo-price": 300,
-            "kilo-price": 499,
-            "pic": "product/images/cake/mango.webp"
+            "name": "Soft serve with strawberry mini",
+            "price": 60,
         },
         {
-            "name": "Pineapple",
-            "half-kilo-price": 300,
-            "kilo-price": 499,
-            "pic": "product/images/cake/pineapple.webp"
+            "name": "Soft serve with strawberry maxi",
+            "price": 90,
         },
         {
-            "name": "BlackCurrent",
-            "half-kilo-price": 300,
-            "kilo-price": 499,
-            "pic": "product/images/cake/blackcurrent.webp"
+            "name": "Soft serve with nuts mini",
+            "price": 60,
         },
         {
-            "name": "Blueberry",
-            "half-kilo-price": 350,
-            "kilo-price": 599,
-            "pic": "product/images/cake/blueberry.webp"
+            "name": "Soft serve with nuts maxi",
+            "price": 90,
         },
         {
-            "name": "Butterscotch",
-            "half-kilo-price": 350,
-            "kilo-price": 599,
-            "pic": "product/images/cake/butterscotch.webp"
+            "name": "Soft serve Caramel",
+            "price": 60,
         },
         {
-            "name": "Orange",
-            "half-kilo-price": 350,
-            "kilo-price": 599,
-            "pic": "product/images/cake/orange.webp"
+            "name": "Brownie with hot fudge",
+            "price": 120,
         },
         {
-            "name": "Choco Almond",
-            "half-kilo-price": 425,
-            "kilo-price": 750,
-            "pic": "product/images/cake/chocoalmond.webp"
+            "name": "Soft serve with black forest",
+            "price": 120,
         },
         {
-            "name": "Chocolate Truffle",
-            "half-kilo-price": 400,
-            "kilo-price": 699,
-            "pic": "product/images/cake/chocolatetruffle.webp"
+            "name": "Oreo mix",
+            "price": 120,
         },
-        {
-            "name": "Honey Almond",
-            "half-kilo-price": 425,
-            "kilo-price": 750,
-            "pic": "product/images/cake/almondhoney.webp"
-        },
-        {
-            "name": "Irish Coffee",
-            "half-kilo-price": 300,
-            "kilo-price": 499,
-            "pic": "product/images/cake/irishcoffee.webp"
-        },
-        {
-            "name": "Red Velvet",
-            "half-kilo-price": 500,
-            "kilo-price": 900,
-            "pic": "product/images/cake/redvelvet.webp"
-        },
-        {
-            "name": "Rasa Malai",
-            "half-kilo-price": 500,
-            "kilo-price": 900,
-            "pic": "product/images/cake/rasamalai.webp"
-        },
-        {
-            "name": "White Forest",
-            "half-kilo-price": 300,
-            "kilo-price": 500,
-            "pic": "product/images/cake/whiteforest.webp"
-        },
-        {
-            "name": "Choco Blast",
-            "half-kilo-price": 400,
-            "kilo-price": 699,
-            "pic": "product/images/cake/chocolateblast.webp"
-        },
-        {
-            "name": "Rainbow Cake",
-            "half-kilo-price": 400,
-            "kilo-price": 699,
-            "pic": "product/images/cake/rainbow.webp"
-        },
-        {
-            "name": "Choco Fudge",
-            "half-kilo-price": 450,
-            "kilo-price": 799,
-            "pic": "product/images/cake/chocofudge.webp"
-        },
-        {
-            "name": "Choco Fantasy",
-            "half-kilo-price": 500,
-            "kilo-price": 899,
-            "pic": "product/images/cake/chocofantasy.webp"
-        },
-        {
-            "name": "Fresh Fruit Cake",
-            "half-kilo-price": 450,
-            "kilo-price": 799,
-            "pic": "product/images/cake/fruitcake.webp"
-        }
     ]
 }
 

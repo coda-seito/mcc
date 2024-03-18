@@ -26,9 +26,10 @@ class Ourmenustyle2 extends Component{
 				<div className="dlab-bnr-inr overlay-black-middle no-line" style={{backgroundImage:"url(" + img + ")"}}>
 					<div className="container">
 						<div className="dlab-bnr-inr-entry">
-							<h1 className="text-white">Combo Offer!!</h1>
+							<br></br><br></br>
+							<h1 className="text-white">Italian Frosty</h1>
 							<span className="text-white">4:00PM - 6:00PM</span>
-							<h3 className="text-white">Chicken Biryani, Sweet , Drink, Ice cream - Rs 150 only</h3>
+							<br></br><br></br>
 						</div>
 					</div>
 				</div>

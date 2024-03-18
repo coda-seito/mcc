@@ -23,12 +23,12 @@ class Ourmenustyle2 extends Component{
 				<div style={{ justifyContent: 'center', display:'flex'}}>
 					{isHappyHour && <ConfettiExplosion force={0.1} particleSize={12} width={2000} zIndex={3} duration={3000}/>}
 				</div>
-				<div className="dlab-bnr-inr overlay-black-middle no-line" style={{backgroundImage:"url(" + img + ")"}}>
+				<div className="dlab-bnr-inr no-line" style={{backgroundImage:"url(" + img + ")"}}>
 					<div className="container">
 						<div className="dlab-bnr-inr-entry">
 							<br></br><br></br>
 							<h1 className="text-white">Italian Frosty</h1>
-							<span className="text-white">4:00PM - 6:00PM</span>
+							<span className="text-white">4:00PM - 10:00PM</span>
 							<br></br><br></br>
 						</div>
 					</div>

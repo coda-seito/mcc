@@ -6,8 +6,8 @@ import Slider from './../Element/Slider';
 
 //Images	
 var img1 = require('./../../images/background/bg5.jpg');
-var serblog1 = require('./../../images/our-services/pic1.webp');
-var serblog2 = require('./../../images/our-services/pic2.webp');
+var serblog1 = require('./../../images/our-services/cone.jpg');
+var serblog2 = require('./../../images/our-services/s-l1600.png');
 var serblog3 = require('./../../images/our-services/pic31.webp');
 var serblog4 = require('./../../images/our-services/pic4.webp');
 var img2 = require('./../../images/background/bg1.jpg');
@@ -47,7 +47,7 @@ class Index1 extends Component{
 										<div className="icon-bx-wraper text-center service-box1" style={{backgroundImage: "url(" + serblog1 + ")"}}>
 											<div className="icon-content">
 												<h2 className="dlab-tilte text-white">Sundae</h2>
-												<p>Puffs & Sandwiches</p>
+												<p>Vanilla Icre-cream with toppings</p>
 												<div className="dlab-separator style1 bg-primary"></div>
 												<Link to={('/menu')} className="btn btnhover">More details <i className="fa fa-angle-double-right m-l5"></i></Link>
 											</div>
@@ -57,7 +57,7 @@ class Index1 extends Component{
 										<div className="icon-bx-wraper text-center service-box1" style={{backgroundImage: "url(" + serblog2 + ")"}}>
 											<div className="icon-content">
 												<h2 className="dlab-tilte text-white">Cones</h2>
-												<p>Milk shakes & Bubble tea</p>
+												<p>Vanilla Icre-cream with toppings on a Sugar Cone</p>
 												<div className="dlab-separator style1 bg-primary"></div>
 												<Link to={('/menu')} className="btn btnhover">More details <i className="fa fa-angle-double-right m-l5"></i></Link>
 											</div>

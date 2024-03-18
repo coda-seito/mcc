@@ -13,9 +13,9 @@ class Slider extends Component{
 						<div className="slide" style={{ backgroundImage: "url("+ slider1 +")"}} >
 							{/* <img className="d-block w-100 slider" src={require('./../../images/main-slider/slide1.jpg')}	alt="Second slide"	/> */}
 							<div className="content">
-								<span>Best Scoops In Navalur</span>
+								<span>Best sundae In Navalur</span>
 								<h2 className="title">Italian Frosty</h2>
-								<h4 className="sub-title">A perfect scoop of happiness</h4>
+								<h4 className="sub-title">Swirls of Happiness, Topped with Delight</h4>
 								<Link to={"/about-1"} className="btn btnhover">About Us</Link>
 								<Link to={'/menu'} className="btn white" data-toggle="modal" data-target="#exampleModal">Special Offer</Link>
 							</div>	
@@ -25,9 +25,9 @@ class Slider extends Component{
 						<div className="slide" style={{ backgroundImage: "url("+ slider2 +")"}} >
 							{/* <img className="d-block w-100 slider"	src={require('./../../images/main-slider/slide2.jpg')}	alt="Second slide"	/> */}
 							<div className="content">
-								<span>Best Scoops In Navalur</span>
+								<span>Best sundae In Navalur</span>
 								<h2 className="title">Italian Frosty</h2>
-								<h4 className="sub-title">Taste luxury at affordable prices</h4>
+								<h4 className="sub-title">Indulge in the Ultimate Sundae Experience</h4>
 								<Link to={"/about-1"} className="btn btnhover">About Us</Link>
 								<Link to={'/menu'} className="btn white" data-toggle="modal" data-target="#exampleModal">Special Offer</Link>
 							</div>	

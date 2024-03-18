@@ -217,7 +217,7 @@ class Index1 extends Component{
 										<img src={require('./../../images/cake1.jpg')} alt="" />
 									</div>
 									<h3 className="text-primary">It’s a party and you’re invited</h3>
-									<p className="main-text">Join Mass Cake Cafe(<strong>Mc<sup>2</sup></strong>) to earn Gold level benefits like free Cakes and food, exclusive discounts, access to secret menu and more.</p>
+									<p className="main-text">Join Italian Frosty(<strong>Mc<sup>2</sup></strong>) to earn Gold level benefits like free Cakes and food, exclusive discounts, access to secret menu and more.</p>
 									<p>Exclusive deals on Cakes, delivered straight to your inbox <Link to={''}>Join Now</Link></p>
 								</div>
 							</div>

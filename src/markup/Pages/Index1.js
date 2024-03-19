@@ -64,129 +64,6 @@ class Index1 extends Component{
 										</div>
 									</div>
 								</div>
-								<div className="section-full bg-white" style={{backgroundImage:"url(" + img3 + ")", backgroundSize:"100%" }}>
-									<div className="container">
-										<div className="row">
-											<div className="col-lg-12">
-												<div className="section-head text-center">
-													<div className="icon-bx icon-bx-xl">
-														<img src={require('./../../images/cake1.jpg')} alt="" />
-													</div>
-													<h3>Buy 1 kg, Get 1 Kg Free</h3>
-													<p>Other shops trick you with "Buy 1 kg, Get ½ Kg Free" offer by raising the prices. We believe in honesty and sell best quality products at a very reasonable price.</p>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div className="container">
-										<div className="row m-lr0 about-area1">
-											<div className="col-lg-6 p-lr0">
-												<img className="img-cover" src={require('./../../images/about/pic3-1.jpg')} alt="" />
-											</div>
-											<div className="col-lg-6 p-lr0 d-flex align-items-center text-center">
-												<div className="about-bx">
-													<div className="section-head text-center text-white">
-														<h4 className="text-white">Limited Time Offer</h4>
-														<p>Birthday Ice-cream Sale!</p>
-														<div className="icon-bx">
-															<img src={require('./../../images/icons/service-icon/icon1.png')} alt="" />
-														</div>
-													</div>
-													<p>60% discount on all icecream if its your birthday.</p>
-													<a href="tel:+917845963618" className="btn-secondry white btnhover btn-md"><i className="fa fa-cart"></i>GET NOW</a>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div className="section-full content-inner service-area2 bg-img-fix bg-line-top bg-line-bottom" style={{backgroundImage: "url(" + img4 + ")",  backgroundSize: "cover" }}>
-							<div className="container">
-								<div className="row">
-									<div className="col-lg-12">
-										<div className="section-head text-center">
-											<h2 className="text-white">What Do We Offer For You?</h2>
-											<p className="text-bold">We offer a wide range of services and products to meet your needs. Whether you're looking for a quick snack, a custom cake for a special occasion, or catering services for a corporate event, we've got you covered.</p>
-											<div className="dlab-separator style1 bg-primary"></div>
-										</div>
-									</div>
-								</div>
-								<div className="row">
-									<div className="col-lg-4 m-b30">
-										<img src={require('./../../images/about/pic1.jpg')} className="img-cover radius-sm" alt="" />
-									</div>
-									<div className="col-lg-8">
-										<div className="row p-l30">
-											<div className="col-lg-6 col-sm-6 m-b30">
-												<div className="icon-bx-wraper text-white service-box2">
-													<div className="icon-bx">
-														<i className="flaticon-cake"></i>
-													</div>
-													<div className="icon-content">
-														<h5 className="dlab-tilte">Cakes</h5>
-														<p>Cakes for all occasions</p>
-													</div>
-												</div>
-											</div>
-											<div className="col-lg-6 col-sm-6 m-b30">
-												<div className="icon-bx-wraper text-white service-box2">
-													<div className="icon-bx">
-														<i className="flaticon-milkshake"></i>
-													</div>
-													<div className="icon-content">
-														<h5 className="dlab-tilte">Shakes</h5>
-														<p>Thick flavorful shakes</p>
-													</div>
-												</div>
-											</div>
-											<div className="col-lg-6 col-sm-6 m-b30">
-												<div className="icon-bx-wraper text-white service-box2">
-													<div className="icon-bx">
-														<i className="flaticon-brownie"></i>
-													</div>
-													<div className="icon-content">
-														<h5 className="dlab-tilte">Desserts</h5>
-														<p>Brownies and ice-cream</p>
-													</div>
-												</div>
-											</div>
-											<div className="col-lg-6 col-sm-6 m-b30">
-												<div className="icon-bx-wraper text-white service-box2">
-													<div className="icon-bx">
-														<i className="flaticon-biryani"></i>
-													</div>
-													<div className="icon-content">
-														<h5 className="dlab-tilte">Biryani</h5>
-														<p>Thokku, Hyderabadi and VEG</p>
-													</div>
-												</div>
-											</div>
-											<div className="col-lg-6 col-sm-6 m-b30">
-												<div className="icon-bx-wraper text-white service-box2">
-													<div className="icon-bx">
-														<i className="flaticon-curry"></i>
-													</div>
-													<div className="icon-content">
-														<h5 className="dlab-tilte">Curry</h5>
-														<p>VEG and NON-VEG curries</p>
-													</div>
-												</div>
-											</div>
-											<div className="col-lg-6 col-sm-6 m-b30">
-												<div className="icon-bx-wraper text-white service-box2">
-													<div className="icon-bx">
-														<i className="flaticon-tortilla"></i>
-													</div>
-													<div className="icon-content">
-														<h5 className="dlab-tilte">Tiffin</h5>
-														<p>Parrota and Iddiyappam</p>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
 							</div>
 						</div>
 						<div className="row">
@@ -196,7 +73,7 @@ class Index1 extends Component{
 										<img src={require('./../../images/cake1.jpg')} alt="" />
 									</div>
 									<h3 className="text-primary">It’s a party and you’re invited</h3>
-									<p className="main-text">Join Italian Frosty(<strong>Mc<sup>2</sup></strong>) to earn Gold level benefits like free Cakes and food, exclusive discounts, access to secret menu and more.</p>
+									<p className="main-text">Join Italian Frosty(<strong>Mc<sup>2</sup></strong>) to earn Gold level benefits like free ice-creams, exclusive discounts, access to secret menu and more.</p>
 									<p>Exclusive deals on Cakes, delivered straight to your inbox <Link to={''}>Join Now</Link></p>
 								</div>
 							</div>
